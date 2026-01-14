@@ -52,7 +52,7 @@ Days 21–25: Intermediate Python & Projects
 
 Tools & Technologies
 - Python 3
-- VS Code
+- PyCharm
 - Git & GitHub
 - Command Line
 - Python Standard Library
