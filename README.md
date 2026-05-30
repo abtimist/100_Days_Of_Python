@@ -2,7 +2,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![Course](https://img.shields.io/badge/Udemy-100%20Days%20of%20Code-EC5252?logo=udemy&logoColor=white)](https://www.udemy.com/course/100-days-of-code/)
-[![Progress](https://img.shields.io/badge/Progress-Day%2044%2F100-green)]()
+[![Progress](https://img.shields.io/badge/Progress-Day%2043%2F100-green)]()
 
 This repository documents my journey through Dr. Angela Yu's **"100 Days of Code: The Complete Python Pro Bootcamp"** on Udemy. Each day includes new concepts, exercises, and a project that reinforces learning through hands-on coding.
 
@@ -15,7 +15,7 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 | [Beginner Python](#-section-1--beginner-python-days-114) | 1 – 14 | Variables, Control Flow, Functions, Loops, Beginner Projects |
 | [Intermediate Python & GUI](#-section-2--intermediate-python--gui-days-1531) | 15 – 31 | OOP, Turtle Graphics, Tkinter GUI, Files, Pandas, APIs |
 | [Intermediate+ Python & APIs](#-section-3--intermediate-python--apis-days-3240) | 32 – 40 | Email Automation, REST APIs, Authentication, Capstone Projects |
-| [Web Foundations](#-section-4--web-foundations-days-41-44) | 41 – 44 | HTML, Intermediate HTML, CSS Foundations, Web Scraping |
+| [Web Foundations](#-section-4--web-foundations-days-41-43) | 41 – 43 | HTML, Intermediate HTML, CSS Foundations |
 
 ---
 
@@ -600,7 +600,7 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 
 ---
 
-## 🔵 Section 4 — Web Foundations (Days 41–44)
+## 🔵 Section 4 — Web Foundations (Days 41–43)
 
 ---
 
@@ -635,22 +635,7 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 
 ---
 
-### 📅 Day 43 — Introduction to Web Scraping
-
-**What I Learnt:**
-- Introduction to web scraping concepts
-- The `BeautifulSoup` library for parsing HTML
-- Navigating the HTML DOM tree
-- Finding elements by tag, class, and ID
-- Extracting text and attributes from web pages
-- Ethical web scraping practices
-
-**What I Built:**
-- 🌐 Web scraping exercises (practice-based during the lecture, applying BeautifulSoup)
-
----
-
-### 📅 Day 44 — Introduction to CSS
+### 📅 Day 43 — Introduction to CSS
 
 **What I Learnt:**
 - How to add CSS to HTML (Inline, Internal, and External CSS)
@@ -675,7 +660,7 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 | **Data** | Pandas, CSV, JSON |
 | **APIs** | OpenWeatherMap, Twilio, Pixela, Nutritionix, Sheety, Tequila/Amadeus, Open Trivia DB, ISS API, Kanye REST |
 | **Email** | smtplib, SMTP |
-| **Web** | HTML, CSS, BeautifulSoup |
+| **Web** | HTML, CSS |
 | **Version Control** | Git & GitHub |
 
 ---
@@ -727,13 +712,13 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 ├── habit-tracker/                 # Day 37
 ├── exercise_tracker/              # Day 38
 ├── flight-deals/                  # Day 39–40
-└── web-foundations/               # Day 41–44
+└── web-foundations/               # Day 41–43
     ├── movie_ranking/
     ├── recipe_using_lists/
     ├── Nested list/
     ├── Image Element/
     ├── Anchor Tags/
-    └── Adding_CSS/                 # Day 44
+    └── Adding_CSS/                 # Day 43
         ├── 5.1. Adding CSS/
         ├── CSS Selectors/
         └── Color Vocab Project/
@@ -787,9 +772,8 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 | 40 | ✅ | Flight Deals Part 2 |
 | 41 | ✅ | HTML Foundations |
 | 42 | ✅ | Intermediate HTML |
-| 43 | ✅ | Web Scraping Intro |
-| 44 | ✅ | Introduction to CSS |
-| 45–100 | ⬜ | Coming soon... |
+| 43 | ✅ | Introduction to CSS |
+| 44–100 | ⬜ | Coming soon... |
 
 ---
 
@@ -805,8 +789,8 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 
 ## 🚀 What's Next
 
-- Continue from **Day 45** onwards
-- Upcoming topics: Advanced Web Scraping, Selenium, Flask Web Development, Databases, Data Science, and more
+- Continue from **Day 44** onwards
+- Upcoming topics: Web Scraping with BeautifulSoup, Selenium, Flask Web Development, Databases, Data Science, and more
 
 ---
 
