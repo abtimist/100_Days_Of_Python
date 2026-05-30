@@ -644,7 +644,7 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 - Structuring files with external stylesheets
 
 **What I Built:**
-- 🎨 [Adding CSS](web-foundations/Adding_CSS/5.1.%20Adding%20CSS/) — Exercises demonstrating inline, internal, and external CSS methods (`index.html`, `inline.html`, `internal.html`, `external.html`, `style.css`)
+- 🎨 [Adding CSS](web-foundations/Adding_CSS/Adding%20CSS/) — Exercises demonstrating inline, internal, and external CSS methods (`index.html`, `inline.html`, `internal.html`, `external.html`, `style.css`)
 - 🎯 [CSS Selectors](web-foundations/Adding_CSS/CSS%20Selectors/5.3%20CSS%20Selectors/) — Practicing class, ID, and element selectors (`index.html`, `style.css`, and solution files)
 - 🔠 [Color Vocab Project](web-foundations/Adding_CSS/Color%20Vocab%20Project/5.4%20Color%20Vocab%20Project/) — Staged CSS exercise displaying color vocab grid with styled fonts and layouts (`index.html`, `style.css`)
 
@@ -719,7 +719,7 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
     ├── Image Element/
     ├── Anchor Tags/
     └── Adding_CSS/                 # Day 43
-        ├── 5.1. Adding CSS/
+        ├── Adding CSS/
         ├── CSS Selectors/
         └── Color Vocab Project/
 ```
