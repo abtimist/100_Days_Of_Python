@@ -2,7 +2,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![Course](https://img.shields.io/badge/Udemy-100%20Days%20of%20Code-EC5252?logo=udemy&logoColor=white)](https://www.udemy.com/course/100-days-of-code/)
-[![Progress](https://img.shields.io/badge/Progress-Day%2043%2F100-green)]()
+[![Progress](https://img.shields.io/badge/Progress-Day%2044%2F100-green)]()
 
 This repository documents my journey through Dr. Angela Yu's **"100 Days of Code: The Complete Python Pro Bootcamp"** on Udemy. Each day includes new concepts, exercises, and a project that reinforces learning through hands-on coding.
 
@@ -15,7 +15,7 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 | [Beginner Python](#-section-1--beginner-python-days-114) | 1 – 14 | Variables, Control Flow, Functions, Loops, Beginner Projects |
 | [Intermediate Python & GUI](#-section-2--intermediate-python--gui-days-1531) | 15 – 31 | OOP, Turtle Graphics, Tkinter GUI, Files, Pandas, APIs |
 | [Intermediate+ Python & APIs](#-section-3--intermediate-python--apis-days-3240) | 32 – 40 | Email Automation, REST APIs, Authentication, Capstone Projects |
-| [Web Foundations](#-section-4--web-foundations-days-4143) | 41 – 43 | HTML, Intermediate HTML, Web Scraping (Beautiful Soup) |
+| [Web Foundations](#-section-4--web-foundations-days-41-44) | 41 – 44 | HTML, Intermediate HTML, CSS Foundations, Web Scraping |
 
 ---
 
@@ -600,7 +600,7 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 
 ---
 
-## 🔵 Section 4 — Web Foundations (Days 41–43)
+## 🔵 Section 4 — Web Foundations (Days 41–44)
 
 ---
 
@@ -650,6 +650,21 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 
 ---
 
+### 📅 Day 44 — Introduction to CSS
+
+**What I Learnt:**
+- How to add CSS to HTML (Inline, Internal, and External CSS)
+- CSS Selectors (Tag, Class, and ID selectors) and their specificity rules
+- Customizing colors, fonts, backgrounds, and layout aesthetics
+- Structuring files with external stylesheets
+
+**What I Built:**
+- 🎨 [Adding CSS](web-foundations/Adding_CSS/5.1.%20Adding%20CSS/) — Exercises demonstrating inline, internal, and external CSS methods (`index.html`, `inline.html`, `internal.html`, `external.html`, `style.css`)
+- 🎯 [CSS Selectors](web-foundations/Adding_CSS/CSS%20Selectors/5.3%20CSS%20Selectors/) — Practicing class, ID, and element selectors (`index.html`, `style.css`, and solution files)
+- 🔠 [Color Vocab Project](web-foundations/Adding_CSS/Color%20Vocab%20Project/5.4%20Color%20Vocab%20Project/) — Staged CSS exercise displaying color vocab grid with styled fonts and layouts (`index.html`, `style.css`)
+
+---
+
 ## 🛠️ Tools & Technologies Used
 
 | Category | Tools |
@@ -660,7 +675,7 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 | **Data** | Pandas, CSV, JSON |
 | **APIs** | OpenWeatherMap, Twilio, Pixela, Nutritionix, Sheety, Tequila/Amadeus, Open Trivia DB, ISS API, Kanye REST |
 | **Email** | smtplib, SMTP |
-| **Web** | HTML, BeautifulSoup |
+| **Web** | HTML, CSS, BeautifulSoup |
 | **Version Control** | Git & GitHub |
 
 ---
@@ -712,13 +727,16 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 ├── habit-tracker/                 # Day 37
 ├── exercise_tracker/              # Day 38
 ├── flight-deals/                  # Day 39–40
-└── web-foundations/               # Day 41–43
+└── web-foundations/               # Day 41–44
     ├── movie_ranking/
     ├── recipe_using_lists/
     ├── Nested list/
     ├── Image Element/
     ├── Anchor Tags/
-    └── Final Project/
+    └── Adding_CSS/                 # Day 44
+        ├── 5.1. Adding CSS/
+        ├── CSS Selectors/
+        └── Color Vocab Project/
 ```
 
 ---
@@ -770,7 +788,8 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 | 41 | ✅ | HTML Foundations |
 | 42 | ✅ | Intermediate HTML |
 | 43 | ✅ | Web Scraping Intro |
-| 44–100 | ⬜ | Coming soon... |
+| 44 | ✅ | Introduction to CSS |
+| 45–100 | ⬜ | Coming soon... |
 
 ---
 
@@ -786,8 +805,8 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 
 ## 🚀 What's Next
 
-- Continue from **Day 44** onwards
-- Upcoming topics: Web Scraping with BeautifulSoup, Selenium, Flask Web Development, Databases, Data Science, and more
+- Continue from **Day 45** onwards
+- Upcoming topics: Advanced Web Scraping, Selenium, Flask Web Development, Databases, Data Science, and more
 
 ---
 
