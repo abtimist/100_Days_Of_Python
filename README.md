@@ -645,7 +645,7 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 
 **What I Built:**
 - 🎨 [Adding CSS](web-foundations/CSS%20Projects/Adding%20CSS/) — Exercises demonstrating inline, internal, and external CSS methods (`index.html`, `inline.html`, `internal.html`, `external.html`, `style.css`)
-- 🎯 [CSS Selectors](web-foundations/CSS%20Projects/CSS%20Selectors/5.3%20CSS%20Selectors/) — Practicing class, ID, and element selectors (`index.html`, `style.css`, and solution files)
+- 🎯 [CSS Selectors](web-foundations/CSS%20Projects/CSS%20Selectors/5.3%20CSS%20Selectors/) — Practicing class, ID, and element selectors (`index.html`, `style.css`)
 - 🔠 [Color Vocab Project](web-foundations/CSS%20Projects/Color%20Vocab%20Project/5.4%20Color%20Vocab%20Project/) — Staged CSS exercise displaying color vocab grid with styled fonts and layouts (`index.html`, `style.css`)
 
 ---
