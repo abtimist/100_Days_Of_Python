@@ -2,7 +2,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![Course](https://img.shields.io/badge/Udemy-100%20Days%20of%20Code-EC5252?logo=udemy&logoColor=white)](https://www.udemy.com/course/100-days-of-code/)
-[![Progress](https://img.shields.io/badge/Progress-Day%2043%2F100-green)]()
+[![Progress](https://img.shields.io/badge/Progress-Day%2044%2F100-green)]()
 
 This repository documents my journey through Dr. Angela Yu's **"100 Days of Code: The Complete Python Pro Bootcamp"** on Udemy. Each day includes new concepts, exercises, and a project that reinforces learning through hands-on coding.
 
@@ -15,7 +15,7 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 | [Beginner Python](#-section-1--beginner-python-days-114) | 1 – 14 | Variables, Control Flow, Functions, Loops, Beginner Projects |
 | [Intermediate Python & GUI](#-section-2--intermediate-python--gui-days-1531) | 15 – 31 | OOP, Turtle Graphics, Tkinter GUI, Files, Pandas, APIs |
 | [Intermediate+ Python & APIs](#-section-3--intermediate-python--apis-days-3240) | 32 – 40 | Email Automation, REST APIs, Authentication, Capstone Projects |
-| [Web Foundations](#-section-4--web-foundations-days-41-43) | 41 – 43 | HTML, Intermediate HTML, CSS Foundations |
+| [Web Foundations](#-section-4--web-foundations-days-41-44) | 41 – 44 | HTML, Intermediate HTML, CSS Foundations & Intermediate CSS |
 
 ---
 
@@ -600,7 +600,7 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 
 ---
 
-## 🔵 Section 4 — Web Foundations (Days 41–43)
+## 🔵 Section 4 — Web Foundations (Days 41–44)
 
 ---
 
@@ -647,6 +647,22 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 - 🎨 [Adding CSS](web-foundations/Adding_CSS/Adding%20CSS/) — Exercises demonstrating inline, internal, and external CSS methods (`index.html`, `inline.html`, `internal.html`, `external.html`, `style.css`)
 - 🎯 [CSS Selectors](web-foundations/Adding_CSS/CSS%20Selectors/5.3%20CSS%20Selectors/) — Practicing class, ID, and element selectors (`index.html`, `style.css`, and solution files)
 - 🔠 [Color Vocab Project](web-foundations/Adding_CSS/Color%20Vocab%20Project/5.4%20Color%20Vocab%20Project/) — Staged CSS exercise displaying color vocab grid with styled fonts and layouts (`index.html`, `style.css`)
+
+---
+
+### 📅 Day 44 — Intermediate CSS
+
+**What I Learnt:**
+- CSS Colors (Hex codes, RGB, HSL, and color naming conventions)
+- Font Properties (Font family, size, weight, line height, and style)
+- Inspecting CSS (using browser developer tools to inspect and debug styles)
+- The CSS Box Model (Understanding margins, padding, borders, and content sizing)
+
+**What I Built:**
+- 🎨 [CSS Colors](web-foundations/Adding_CSS/CSS%20Colors/) — Exercises on utilizing different color formats and transparency in CSS (`index.html`)
+- 🔠 [Font Properties](web-foundations/Adding_CSS/Font%20Properties/) — Practice styling fonts, sizes, and formatting text layouts (`index.html`, `font-family.html`, `font-size.html`)
+- 📦 [CSS Box Model](web-foundations/Adding_CSS/CSS%20Box%20Model/) — Layout exercise to understand padding, margins, borders, and box dimensions (`index.html`, `solution.html`)
+- 🖼️ [Motivational Poster Website](web-foundations/Adding_CSS/Motivation%20Meme%20Project/) — A web page displaying a motivational poster with styled fonts, margins, and borders around a custom image (`index.html`, `style.css`)
 
 ---
 
@@ -712,16 +728,20 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 ├── habit-tracker/                 # Day 37
 ├── exercise_tracker/              # Day 38
 ├── flight-deals/                  # Day 39–40
-└── web-foundations/               # Day 41–43
+└── web-foundations/               # Day 41–44
     ├── movie_ranking/
     ├── recipe_using_lists/
     ├── Nested list/
     ├── Image Element/
     ├── Anchor Tags/
-    └── Adding_CSS/                 # Day 43
+    └── Adding_CSS/                 # Days 43–44
         ├── Adding CSS/
         ├── CSS Selectors/
-        └── Color Vocab Project/
+        ├── Color Vocab Project/
+        ├── CSS Colors/
+        ├── Font Properties/
+        ├── CSS Box Model/
+        └── Motivation Meme Project/
 ```
 
 ---
@@ -773,7 +793,8 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 | 41 | ✅ | HTML Foundations |
 | 42 | ✅ | Intermediate HTML |
 | 43 | ✅ | Introduction to CSS |
-| 44–100 | ⬜ | Coming soon... |
+| 44 | ✅ | Intermediate CSS |
+| 45–100 | ⬜ | Coming soon... |
 
 ---
 
@@ -789,7 +810,7 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 
 ## 🚀 What's Next
 
-- Continue from **Day 44** onwards
+- Continue from **Day 45** onwards
 - Upcoming topics: Web Scraping with BeautifulSoup, Selenium, Flask Web Development, Databases, Data Science, and more
 
 ---
