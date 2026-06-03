@@ -614,8 +614,8 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 - Creating ordered and unordered lists (`<ol>`, `<ul>`, `<li>`)
 
 **What I Built:**
-- 🎬 [Movie Ranking Page](web-foundations/movie_ranking/) — An HTML page ranking top movies using heading and list elements (`index.html`)
-- 🍳 [Recipe Page](web-foundations/recipe_using_lists/) — A recipe page using nested HTML lists for ingredients and instructions (`index.html`)
+- 🎬 [Movie Ranking Page](web-foundations/HTML%20Projects/movie_ranking/) — An HTML page ranking top movies using heading and list elements (`index.html`)
+- 🍳 [Recipe Page](web-foundations/HTML%20Projects/recipe_using_lists/) — A recipe page using nested HTML lists for ingredients and instructions (`index.html`)
 
 ---
 
@@ -629,9 +629,9 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 - Building multi-page websites with links
 
 **What I Built:**
-- 📋 [Nested List Page](web-foundations/Nested%20list/) — An HTML page demonstrating complex nested list structures (`index.html`)
-- 🖼️ [Image Element Page](web-foundations/Image%20Element/) — Practicing embedding images in HTML (`index.html`)
-- 🔗 [Anchor Tags Page](web-foundations/Anchor%20Tags/) — Practicing creating hyperlinks and navigation with anchor tags (`index.html`)
+- 📋 [Nested List Page](web-foundations/HTML%20Projects/Nested%20list/) — An HTML page demonstrating complex nested list structures (`index.html`)
+- 🖼️ [Image Element Page](web-foundations/HTML%20Projects/Image%20Element/) — Practicing embedding images in HTML (`index.html`)
+- 🔗 [Anchor Tags Page](web-foundations/HTML%20Projects/Anchor%20Tags/) — Practicing creating hyperlinks and navigation with anchor tags (`index.html`)
 
 ---
 
@@ -644,9 +644,9 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 - Structuring files with external stylesheets
 
 **What I Built:**
-- 🎨 [Adding CSS](web-foundations/Adding_CSS/Adding%20CSS/) — Exercises demonstrating inline, internal, and external CSS methods (`index.html`, `inline.html`, `internal.html`, `external.html`, `style.css`)
-- 🎯 [CSS Selectors](web-foundations/Adding_CSS/CSS%20Selectors/5.3%20CSS%20Selectors/) — Practicing class, ID, and element selectors (`index.html`, `style.css`, and solution files)
-- 🔠 [Color Vocab Project](web-foundations/Adding_CSS/Color%20Vocab%20Project/5.4%20Color%20Vocab%20Project/) — Staged CSS exercise displaying color vocab grid with styled fonts and layouts (`index.html`, `style.css`)
+- 🎨 [Adding CSS](web-foundations/CSS%20Projects/Adding%20CSS/) — Exercises demonstrating inline, internal, and external CSS methods (`index.html`, `inline.html`, `internal.html`, `external.html`, `style.css`)
+- 🎯 [CSS Selectors](web-foundations/CSS%20Projects/CSS%20Selectors/5.3%20CSS%20Selectors/) — Practicing class, ID, and element selectors (`index.html`, `style.css`, and solution files)
+- 🔠 [Color Vocab Project](web-foundations/CSS%20Projects/Color%20Vocab%20Project/5.4%20Color%20Vocab%20Project/) — Staged CSS exercise displaying color vocab grid with styled fonts and layouts (`index.html`, `style.css`)
 
 ---
 
@@ -659,10 +659,10 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 - The CSS Box Model (Understanding margins, padding, borders, and content sizing)
 
 **What I Built:**
-- 🎨 [CSS Colors](web-foundations/Adding_CSS/CSS%20Colors/) — Exercises on utilizing different color formats and transparency in CSS (`index.html`)
-- 🔠 [Font Properties](web-foundations/Adding_CSS/Font%20Properties/) — Practice styling fonts, sizes, and formatting text layouts (`index.html`, `font-family.html`, `font-size.html`)
-- 📦 [CSS Box Model](web-foundations/Adding_CSS/CSS%20Box%20Model/) — Layout exercise to understand padding, margins, borders, and box dimensions (`index.html`, `solution.html`)
-- 🖼️ [CSS Poster Project](web-foundations/Adding_CSS/css%20poster%20project/) — A web page displaying a poster with styled fonts, margins, and borders around a custom image (`index.html`, `style.css`)
+- 🎨 [CSS Colors](web-foundations/CSS%20Projects/CSS%20Colors/) — Exercises on utilizing different color formats and transparency in CSS (`index.html`)
+- 🔠 [Font Properties](web-foundations/CSS%20Projects/Font%20Properties/) — Practice styling fonts, sizes, and formatting text layouts (`index.html`, `font-family.html`, `font-size.html`)
+- 📦 [CSS Box Model](web-foundations/CSS%20Projects/CSS%20Box%20Model/) — Layout exercise to understand padding, margins, borders, and box dimensions (`index.html`, `solution.html`)
+- 🖼️ [CSS Poster Project](web-foundations/CSS%20Projects/CSS%20Poster%20Project/) — A web page displaying a poster with styled fonts, margins, and borders around a custom image (`index.html`, `style.css`)
 
 ---
 
@@ -729,19 +729,20 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 ├── exercise_tracker/              # Day 38
 ├── flight-deals/                  # Day 39–40
 └── web-foundations/               # Day 41–44
-    ├── movie_ranking/
-    ├── recipe_using_lists/
-    ├── Nested list/
-    ├── Image Element/
-    ├── Anchor Tags/
-    └── Adding_CSS/                 # Days 43–44
+    ├── HTML Projects/              # Days 41–42
+    │   ├── movie_ranking/
+    │   ├── recipe_using_lists/
+    │   ├── Nested list/
+    │   ├── Image Element/
+    │   └── Anchor Tags/
+    └── CSS Projects/               # Days 43–44
         ├── Adding CSS/
         ├── CSS Selectors/
         ├── Color Vocab Project/
         ├── CSS Colors/
         ├── Font Properties/
         ├── CSS Box Model/
-        └── css poster project/
+        └── CSS Poster Project/
 ```
 
 ---
