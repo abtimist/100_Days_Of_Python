@@ -662,7 +662,7 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 - 🎨 [CSS Colors](web-foundations/Adding_CSS/CSS%20Colors/) — Exercises on utilizing different color formats and transparency in CSS (`index.html`)
 - 🔠 [Font Properties](web-foundations/Adding_CSS/Font%20Properties/) — Practice styling fonts, sizes, and formatting text layouts (`index.html`, `font-family.html`, `font-size.html`)
 - 📦 [CSS Box Model](web-foundations/Adding_CSS/CSS%20Box%20Model/) — Layout exercise to understand padding, margins, borders, and box dimensions (`index.html`, `solution.html`)
-- 🖼️ [Motivational Poster Website](web-foundations/Adding_CSS/Motivation%20Meme%20Project/) — A web page displaying a motivational poster with styled fonts, margins, and borders around a custom image (`index.html`, `style.css`)
+- 🖼️ [CSS Poster Project](web-foundations/Adding_CSS/css%20poster%20project/) — A web page displaying a poster with styled fonts, margins, and borders around a custom image (`index.html`, `style.css`)
 
 ---
 
@@ -741,7 +741,7 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
         ├── CSS Colors/
         ├── Font Properties/
         ├── CSS Box Model/
-        └── Motivation Meme Project/
+        └── css poster project/
 ```
 
 ---
