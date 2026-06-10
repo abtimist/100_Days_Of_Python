@@ -2,7 +2,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![Course](https://img.shields.io/badge/Udemy-100%20Days%20of%20Code-EC5252?logo=udemy&logoColor=white)](https://www.udemy.com/course/100-days-of-code/)
-[![Progress](https://img.shields.io/badge/Progress-Day%2044%2F100-green)]()
+[![Progress](https://img.shields.io/badge/Progress-Day%2045%2F100-green)]()
 
 This repository documents my journey through Dr. Angela Yu's **"100 Days of Code: The Complete Python Pro Bootcamp"** on Udemy. Each day includes new concepts, exercises, and a project that reinforces learning through hands-on coding.
 
@@ -16,6 +16,7 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 | [Intermediate Python & GUI](#-section-2--intermediate-python--gui-days-1531) | 15 – 31 | OOP, Turtle Graphics, Tkinter GUI, Files, Pandas, APIs |
 | [Intermediate+ Python & APIs](#-section-3--intermediate-python--apis-days-3240) | 32 – 40 | Email Automation, REST APIs, Authentication, Capstone Projects |
 | [Web Foundations](#-section-4--web-foundations-days-41-44) | 41 – 44 | HTML, Intermediate HTML, CSS Foundations & Intermediate CSS |
+| [Intermediate+ Web Scraping](#-section-5--intermediate-web-scraping-day-45) | 45 | Web Scraping with Beautiful Soup, Scraping Live Websites |
 
 ---
 
@@ -666,6 +667,26 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 
 ---
 
+## 🟣 Section 5 — Intermediate+ Web Scraping (Day 45)
+
+---
+
+### 📅 Day 45 — Intermediate+ Web Scraping with Beautiful Soup
+
+**What I Learnt:**
+- Web Scraping principles, ethics, and legality (`robots.txt`)
+- Parsing local HTML files using Beautiful Soup (`BeautifulSoup`)
+- Finding, selecting, and extracting specific elements, attributes, and text
+- Selecting elements using CSS Selectors (`select()`, `select_one()`)
+- Scraping live websites (Hacker News) to extract and analyze real-time data
+- Chaining data processing to find the most popular articles based on upvote count
+
+**What I Built:**
+- 📰 [YC Top News Scraper](web-intermediate/yc_top_news_scrapper/) — Scrapes the Y Combinator Hacker News homepage to find and print the link and title of the article with the highest upvotes (`main.py`)
+- 🎬 [100 Movies that You Must Watch](web-intermediate/100_movies_to_watch/) — Scrapes a curated list of top 100 movies from an archived Empire magazine article and generates a `movies.txt` file listing them in ascending order (`main.py`, `movies.txt`)
+
+---
+
 ## 🛠️ Tools & Technologies Used
 
 | Category | Tools |
@@ -676,7 +697,7 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 | **Data** | Pandas, CSV, JSON |
 | **APIs** | OpenWeatherMap, Twilio, Pixela, Nutritionix, Sheety, Tequila/Amadeus, Open Trivia DB, ISS API, Kanye REST |
 | **Email** | smtplib, SMTP |
-| **Web** | HTML, CSS |
+| **Web / Scraping** | HTML, CSS, BeautifulSoup 4, requests |
 | **Version Control** | Git & GitHub |
 
 ---
@@ -728,21 +749,24 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 ├── habit-tracker/                 # Day 37
 ├── exercise_tracker/              # Day 38
 ├── flight-deals/                  # Day 39–40
-└── web-foundations/               # Day 41–44
-    ├── HTML Projects/              # Days 41–42
-    │   ├── movie_ranking/
-    │   ├── recipe_using_lists/
-    │   ├── Nested list/
-    │   ├── Image Element/
-    │   └── Anchor Tags/
-    └── CSS Projects/               # Days 43–44
-        ├── Adding CSS/
-        ├── CSS Selectors/
-        ├── Color Vocab Project/
-        ├── CSS Colors/
-        ├── Font Properties/
-        ├── CSS Box Model/
-        └── CSS Poster Project/
+├── web-foundations/               # Day 41–44
+│   ├── HTML Projects/              # Days 41–42
+│   │   ├── movie_ranking/
+│   │   ├── recipe_using_lists/
+│   │   ├── Nested list/
+│   │   ├── Image Element/
+│   │   └── Anchor Tags/
+│   └── CSS Projects/               # Days 43–44
+│       ├── Adding CSS/
+│       ├── CSS Selectors/
+│       ├── Color Vocab Project/
+│       ├── CSS Colors/
+│       ├── Font Properties/
+│       ├── CSS Box Model/
+│       └── CSS Poster Project/
+└── web-intermediate/              # Day 45
+    ├── yc_top_news_scrapper/       # Day 45
+    └── 100_movies_to_watch/        # Day 45
 ```
 
 ---
@@ -795,7 +819,8 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 | 42 | ✅ | Intermediate HTML |
 | 43 | ✅ | Introduction to CSS |
 | 44 | ✅ | Intermediate CSS |
-| 45–100 | ⬜ | Coming soon... |
+| 45 | ✅ | Web Scraping with Beautiful Soup |
+| 46–100 | ⬜ | Coming soon... |
 
 ---
 
@@ -811,8 +836,8 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 
 ## 🚀 What's Next
 
-- Continue from **Day 45** onwards
-- Upcoming topics: Web Scraping with BeautifulSoup, Selenium, Flask Web Development, Databases, Data Science, and more
+- Continue from **Day 46** onwards
+- Upcoming topics: Selenium Webdriver, Flask Web Development, Databases, Data Science, and more
 
 ---
 
