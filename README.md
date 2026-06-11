@@ -2,7 +2,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![Course](https://img.shields.io/badge/Udemy-100%20Days%20of%20Code-EC5252?logo=udemy&logoColor=white)](https://www.udemy.com/course/100-days-of-code/)
-[![Progress](https://img.shields.io/badge/Progress-Day%2045%2F100-green)]()
+[![Progress](https://img.shields.io/badge/Progress-Day%2046%2F100-green)]()
 
 This repository documents my journey through Dr. Angela Yu's **"100 Days of Code: The Complete Python Pro Bootcamp"** on Udemy. Each day includes new concepts, exercises, and a project that reinforces learning through hands-on coding.
 
@@ -16,7 +16,7 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 | [Intermediate Python & GUI](#-section-2--intermediate-python--gui-days-1531) | 15 – 31 | OOP, Turtle Graphics, Tkinter GUI, Files, Pandas, APIs |
 | [Intermediate+ Python & APIs](#-section-3--intermediate-python--apis-days-3240) | 32 – 40 | Email Automation, REST APIs, Authentication, Capstone Projects |
 | [Web Foundations](#-section-4--web-foundations-days-41-44) | 41 – 44 | HTML, Intermediate HTML, CSS Foundations & Intermediate CSS |
-| [Intermediate+ Web Scraping](#-section-5--intermediate-web-scraping-day-45) | 45 | Web Scraping with Beautiful Soup, Scraping Live Websites |
+| [Intermediate+ Web Scraping](#-section-5--intermediate-web-scraping-days-45-46) | 45 – 46 | Web Scraping with Beautiful Soup, Scraping Live Websites, API Authentication |
 
 ---
 
@@ -667,7 +667,7 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 
 ---
 
-## 🟣 Section 5 — Intermediate+ Web Scraping (Day 45)
+## 🟣 Section 5 — Intermediate+ Web Scraping (Days 45–46)
 
 ---
 
@@ -687,6 +687,20 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 
 ---
 
+### 📅 Day 46 — Create a YouTube Music Playlist using the Musical Time Machine
+
+**What I Learnt:**
+- Scraping historical web pages (Billboard Hot 100 for a specific date) using Beautiful Soup
+- Authenticating with YouTube Music using the `ytmusicapi` library
+- Re-using browser request headers (cookies and session tokens) for programmatic authentication via `browser.json`
+- Searching for songs on YouTube Music programmatically and handling search failures/exceptions
+- Programmatically creating playlists and adding items (videos/tracks) to playlists on YouTube Music
+
+**What I Built:**
+- 🎵 [Music Time Machine](Music%20Time%20Machine/) — A command-line script that prompts the user for a past date, scrapes the Billboard Hot 100 chart for that date, searches for the songs on YouTube Music, and creates a private playlist in the user's library with all the found songs (`main.py`, `browser.json.example`, `README.md`)
+
+---
+
 ## 🛠️ Tools & Technologies Used
 
 | Category | Tools |
@@ -695,7 +709,7 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 | **IDE** | PyCharm, VS Code |
 | **GUI** | Tkinter, Turtle Graphics |
 | **Data** | Pandas, CSV, JSON |
-| **APIs** | OpenWeatherMap, Twilio, Pixela, Nutritionix, Sheety, Tequila/Amadeus, Open Trivia DB, ISS API, Kanye REST |
+| **APIs** | OpenWeatherMap, Twilio, Pixela, Nutritionix, Sheety, Tequila/Amadeus, Open Trivia DB, ISS API, Kanye REST, YouTube Music API (ytmusicapi) |
 | **Email** | smtplib, SMTP |
 | **Web / Scraping** | HTML, CSS, BeautifulSoup 4, requests |
 | **Version Control** | Git & GitHub |
@@ -764,9 +778,10 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 │       ├── Font Properties/
 │       ├── CSS Box Model/
 │       └── CSS Poster Project/
-└── web-intermediate/              # Day 45
-    ├── yc_top_news_scrapper/       # Day 45
-    └── 100_movies_to_watch/        # Day 45
+├── web-intermediate/              # Day 45
+│   ├── yc_top_news_scrapper/       # Day 45
+│   └── 100_movies_to_watch/        # Day 45
+└── Music Time Machine/            # Day 46
 ```
 
 ---
@@ -820,7 +835,8 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 | 43 | ✅ | Introduction to CSS |
 | 44 | ✅ | Intermediate CSS |
 | 45 | ✅ | Web Scraping with Beautiful Soup |
-| 46–100 | ⬜ | Coming soon... |
+| 46 | ✅ | Create a YouTube Music Playlist |
+| 47–100 | ⬜ | Coming soon... |
 
 ---
 
@@ -836,7 +852,7 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 
 ## 🚀 What's Next
 
-- Continue from **Day 46** onwards
+- Continue from **Day 47** onwards
 - Upcoming topics: Selenium Webdriver, Flask Web Development, Databases, Data Science, and more
 
 ---
