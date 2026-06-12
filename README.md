@@ -2,7 +2,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![Course](https://img.shields.io/badge/Udemy-100%20Days%20of%20Code-EC5252?logo=udemy&logoColor=white)](https://www.udemy.com/course/100-days-of-code/)
-[![Progress](https://img.shields.io/badge/Progress-Day%2046%2F100-green)]()
+[![Progress](https://img.shields.io/badge/Progress-Day%2047%2F100-green)]()
 
 This repository documents my journey through Dr. Angela Yu's **"100 Days of Code: The Complete Python Pro Bootcamp"** on Udemy. Each day includes new concepts, exercises, and a project that reinforces learning through hands-on coding.
 
@@ -16,7 +16,7 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 | [Intermediate Python & GUI](#-section-2--intermediate-python--gui-days-1531) | 15 – 31 | OOP, Turtle Graphics, Tkinter GUI, Files, Pandas, APIs |
 | [Intermediate+ Python & APIs](#-section-3--intermediate-python--apis-days-3240) | 32 – 40 | Email Automation, REST APIs, Authentication, Capstone Projects |
 | [Web Foundations](#-section-4--web-foundations-days-41-44) | 41 – 44 | HTML, Intermediate HTML, CSS Foundations & Intermediate CSS |
-| [Intermediate+ Web Scraping](#-section-5--intermediate-web-scraping-days-45-46) | 45 – 46 | Web Scraping with Beautiful Soup, Scraping Live Websites, API Authentication |
+| [Intermediate+ Web Scraping](#-section-5--intermediate-web-scraping-days-45-47) | 45 – 47 | Web Scraping with Beautiful Soup, Scraping Live Websites, Price Tracking, Email Alerts |
 
 ---
 
@@ -667,7 +667,7 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 
 ---
 
-## 🟣 Section 5 — Intermediate+ Web Scraping (Days 45–46)
+## 🟣 Section 5 — Intermediate+ Web Scraping (Days 45–47)
 
 ---
 
@@ -698,6 +698,19 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 
 **What I Built:**
 - 🎵 [Music Time Machine](Music%20Time%20Machine/) — A command-line script that prompts the user for a past date, scrapes the Billboard Hot 100 chart for that date, searches for the songs on YouTube Music, and creates a private playlist in the user's library with all the found songs (`main.py`, `browser.json.example`, `README.md`)
+
+---
+
+### 📅 Day 47 — Automated Amazon Price Tracker
+
+**What I Learnt:**
+- Scrapes live e-commerce websites (Amazon) to monitor product prices using Beautiful Soup and Regular Expressions (`re.sub()`)
+- Implementing programmatic request configurations to load custom HTTP headers from an external `headers.json` configuration file, avoiding hardcoding sensitive browser details/cookies in code
+- Structuring secure credentials using `.env` files and `python-dotenv` for SMTP email alert notifications
+- Automating email notifications using Python's `smtplib` and `email.message.EmailMessage` to alert the user when the scraped product price falls below a preset target value
+
+**What I Built:**
+- 🏷️ [Automated Amazon Price Tracker](Amazon%20Price%20Tracker/) — A background scraper script that monitors the price of a specific Amazon item, parses its fractional and whole price components, and automatically triggers an email alert if the price drops below the specified budget (`main.py`, `headers.json.example`, `pyproject.toml`)
 
 ---
 
@@ -781,7 +794,8 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 ├── web-intermediate/              # Day 45
 │   ├── yc_top_news_scrapper/       # Day 45
 │   └── 100_movies_to_watch/        # Day 45
-└── Music Time Machine/            # Day 46
+├── Music Time Machine/            # Day 46
+└── Amazon Price Tracker/          # Day 47
 ```
 
 ---
@@ -836,7 +850,8 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 | 44 | ✅ | Intermediate CSS |
 | 45 | ✅ | Web Scraping with Beautiful Soup |
 | 46 | ✅ | Create a YouTube Music Playlist |
-| 47–100 | ⬜ | Coming soon... |
+| 47 | ✅ | Automated Amazon Price Tracker |
+| 48–100 | ⬜ | Coming soon... |
 
 ---
 
@@ -852,7 +867,7 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 
 ## 🚀 What's Next
 
-- Continue from **Day 47** onwards
+- Continue from **Day 48** onwards
 - Upcoming topics: Selenium Webdriver, Flask Web Development, Databases, Data Science, and more
 
 ---
