@@ -705,12 +705,12 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 
 **What I Learnt:**
 - Scrapes live e-commerce websites (Amazon) to monitor product prices using Beautiful Soup and Regular Expressions (`re.sub()`)
-- Implementing programmatic request configurations to load custom HTTP headers from an external `headers.json` configuration file, avoiding hardcoding sensitive browser details/cookies in code
+- Hiding sensitive HTTP request headers (such as browser details and cookies) using environment variables loaded via `.env` files and `python-dotenv`
 - Structuring secure credentials using `.env` files and `python-dotenv` for SMTP email alert notifications
 - Automating email notifications using Python's `smtplib` and `email.message.EmailMessage` to alert the user when the scraped product price falls below a preset target value
 
 **What I Built:**
-- 🏷️ [Automated Amazon Price Tracker](Amazon%20Price%20Tracker/) — A background scraper script that monitors the price of a specific Amazon item, parses its fractional and whole price components, and automatically triggers an email alert if the price drops below the specified budget (`main.py`, `headers.json.example`, `pyproject.toml`)
+- 🏷️ [Automated Amazon Price Tracker](Amazon%20Price%20Tracker/) — A background scraper script that monitors the price of a specific Amazon item, parses its fractional and whole price components, and automatically triggers an email alert if the price drops below the specified budget (`main.py`, `.env.example`, `pyproject.toml`)
 
 ---
 
