@@ -2,7 +2,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![Course](https://img.shields.io/badge/Udemy-100%20Days%20of%20Code-EC5252?logo=udemy&logoColor=white)](https://www.udemy.com/course/100-days-of-code/)
-[![Progress](https://img.shields.io/badge/Progress-Day%2047%2F100-green)]()
+[![Progress](https://img.shields.io/badge/Progress-Day%2048%2F100-green)]()
 
 This repository documents my journey through Dr. Angela Yu's **"100 Days of Code: The Complete Python Pro Bootcamp"** on Udemy. Each day includes new concepts, exercises, and a project that reinforces learning through hands-on coding.
 
@@ -17,6 +17,7 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 | [Intermediate+ Python & APIs](#-section-3--intermediate-python--apis-days-3240) | 32 – 40 | Email Automation, REST APIs, Authentication, Capstone Projects |
 | [Web Foundations](#-section-4--web-foundations-days-41-44) | 41 – 44 | HTML, Intermediate HTML, CSS Foundations & Intermediate CSS |
 | [Intermediate+ Web Scraping](#-section-5--intermediate-web-scraping-days-45-47) | 45 – 47 | Web Scraping with Beautiful Soup, Scraping Live Websites, Price Tracking, Email Alerts |
+| [Selenium & Browser Automation](#-section-6--selenium--browser-automation-day-48) | 48 | Selenium Webdriver, Browser Automation, Game Bots |
 
 ---
 
@@ -714,6 +715,28 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 
 ---
 
+## 🔴 Section 6 — Selenium & Browser Automation (Day 48)
+
+---
+
+### 📅 Day 48 — Intermediate+ Create an Automated Browser & Game Bot with Selenium
+
+**What I Learnt:**
+- Installing and setting up Selenium Webdriver with ChromeDriver
+- Locating elements using `By.ID`, `By.CSS_SELECTOR`, `By.NAME`, `By.LINK_TEXT`
+- Extracting text and attributes from web elements (`.text`, `.get_attribute()`)
+- Interacting with elements: `.click()`, `.send_keys()`, `Keys.ENTER`
+- Using `WebDriverWait` and `expected_conditions` for reliable, timed element waits
+- Building a game bot loop with `time.time()` for timed automation
+- Configuring ChromeOptions with `add_experimental_option()` and `add_argument()`
+
+**What I Built:**
+- 🐍 [Python Events Scraper](SeleniumFundamentals/python-events-scrapper.py) — Scrapes upcoming Python.org events by selecting elements with CSS selectors and extracting `datetime` attributes and event names into a dictionary (`python-events-scrapper.py`)
+- 📋 [Form Auto-Fill Bot](SeleniumFundamentals/wikipedia-scrapper/interaction.py) — Automatically fills and submits a newsletter signup form using Selenium `find_element` with `By.NAME` and `send_keys` (`interaction.py`)
+- 🍪 [Automated Cookie Clicker Bot](automated-cookie-clicker/) — A game bot that plays the Cookie Clicker game for 5 minutes autonomously: clicks the cookie as fast as possible, then purchases the latest available upgrades and products on every cycle (`main.py`)
+
+---
+
 ## 🛠️ Tools & Technologies Used
 
 | Category | Tools |
@@ -725,6 +748,7 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 | **APIs** | OpenWeatherMap, Twilio, Pixela, Nutritionix, Sheety, Tequila/Amadeus, Open Trivia DB, ISS API, Kanye REST, YouTube Music API (ytmusicapi) |
 | **Email** | smtplib, SMTP |
 | **Web / Scraping** | HTML, CSS, BeautifulSoup 4, requests |
+| **Browser Automation** | Selenium Webdriver, ChromeDriver |
 | **Version Control** | Git & GitHub |
 
 ---
@@ -795,7 +819,13 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 │   ├── yc_top_news_scrapper/       # Day 45
 │   └── 100_movies_to_watch/        # Day 45
 ├── Music Time Machine/            # Day 46
-└── Amazon Price Tracker/          # Day 47
+├── Amazon Price Tracker/          # Day 47
+├── SeleniumFundamentals/          # Day 48
+│   ├── python-events-scrapper.py
+│   └── wikipedia-scrapper/
+│       └── interaction.py
+└── automated-cookie-clicker/      # Day 48
+    └── main.py
 ```
 
 ---
@@ -851,7 +881,8 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 | 45 | ✅ | Web Scraping with Beautiful Soup |
 | 46 | ✅ | Create a YouTube Music Playlist |
 | 47 | ✅ | Automated Amazon Price Tracker |
-| 48–100 | ⬜ | Coming soon... |
+| 48 | ✅ | Selenium Browser Automation & Game Bot |
+| 49–100 | ⬜ | Coming soon... |
 
 ---
 
@@ -867,8 +898,8 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 
 ## 🚀 What's Next
 
-- Continue from **Day 48** onwards
-- Upcoming topics: Selenium Webdriver, Flask Web Development, Databases, Data Science, and more
+- Continue from **Day 49** onwards
+- Upcoming topics: Selenium Capstone Project, Flask Web Development, Databases, Data Science, and more
 
 ---
 
