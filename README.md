@@ -2,7 +2,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![Course](https://img.shields.io/badge/Udemy-100%20Days%20of%20Code-EC5252?logo=udemy&logoColor=white)](https://www.udemy.com/course/100-days-of-code/)
-[![Progress](https://img.shields.io/badge/Progress-Day%2048%2F100-green)]()
+[![Progress](https://img.shields.io/badge/Progress-Day%2049%2F100-green)]()
 
 This repository documents my journey through Dr. Angela Yu's **"100 Days of Code: The Complete Python Pro Bootcamp"** on Udemy. Each day includes new concepts, exercises, and a project that reinforces learning through hands-on coding.
 
@@ -17,7 +17,7 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 | [Intermediate+ Python & APIs](#-section-3--intermediate-python--apis-days-3240) | 32 – 40 | Email Automation, REST APIs, Authentication, Capstone Projects |
 | [Web Foundations](#-section-4--web-foundations-days-41-44) | 41 – 44 | HTML, Intermediate HTML, CSS Foundations & Intermediate CSS |
 | [Intermediate+ Web Scraping](#-section-5--intermediate-web-scraping-days-45-47) | 45 – 47 | Web Scraping with Beautiful Soup, Scraping Live Websites, Price Tracking, Email Alerts |
-| [Selenium & Browser Automation](#-section-6--selenium--browser-automation-day-48) | 48 | Selenium Webdriver, Browser Automation, Game Bots |
+| [Selenium & Browser Automation](#-section-6--selenium--browser-automation-days-4849) | 48 – 49 | Selenium Webdriver, Browser Automation, Game Bots, Real-World Automation |
 
 ---
 
@@ -715,7 +715,7 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 
 ---
 
-## 🔴 Section 6 — Selenium & Browser Automation (Day 48)
+## 🔴 Section 6 — Selenium & Browser Automation (Days 48–49)
 
 ---
 
@@ -734,6 +734,23 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 - 🐍 [Python Events Scraper](SeleniumFundamentals/python-events-scrapper.py) — Scrapes upcoming Python.org events by selecting elements with CSS selectors and extracting `datetime` attributes and event names into a dictionary (`python-events-scrapper.py`)
 - 📋 [Form Auto-Fill Bot](SeleniumFundamentals/wikipedia-scrapper/interaction.py) — Automatically fills and submits a newsletter signup form using Selenium `find_element` with `By.NAME` and `send_keys` (`interaction.py`)
 - 🍪 [Automated Cookie Clicker Bot](automated-cookie-clicker/) — A game bot that plays the Cookie Clicker game for 5 minutes autonomously: clicks the cookie as fast as possible, then purchases the latest available upgrades and products on every cycle (`main.py`)
+
+---
+
+### 📅 Day 49 — Intermediate+ Automating your Exercise Routine at the Gym
+
+**What I Learnt:**
+- Setting up a persistent Chrome profile with `--user-data-dir` to retain login sessions across runs
+- Using `WebDriverWait` with `expected_conditions` for robust element waiting (clickable, presence)
+- Programmatic login using `send_keys()` and `Keys.ENTER` in a loop over multiple fields
+- Filtering elements dynamically by their text content (e.g., detecting "Booked", "Waitlisted", "Join Waitlist")
+- Using `driver.execute_script("arguments[0].click();", element)` to click elements that standard `.click()` can't reach
+- Scraping and verifying bookings on a separate "My Bookings" page using `XPATH` selectors with `strong` text matching
+- Writing a reusable `retry()` helper function to handle transient failures gracefully with configurable retries
+- Providing a structured QA summary with counters (booked, waitlisted, already booked) and a verification pass
+
+**What I Built:**
+- 🏋️ [Gym Booking Automation](Gym-Booking-Automation/) — A fully automated Selenium bot that logs into a gym booking website, filters the schedule for Tuesday & Thursday 6pm spin classes, books or joins the waitlist for each, then navigates to the "My Bookings" page to verify and print a detailed booking summary report (`main.py`)
 
 ---
 
@@ -824,7 +841,9 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 │   ├── python-events-scrapper.py
 │   └── wikipedia-scrapper/
 │       └── interaction.py
-└── automated-cookie-clicker/      # Day 48
+├── automated-cookie-clicker/      # Day 48
+│   └── main.py
+└── Gym-Booking-Automation/        # Day 49
     └── main.py
 ```
 
@@ -882,7 +901,8 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 | 46 | ✅ | Create a YouTube Music Playlist |
 | 47 | ✅ | Automated Amazon Price Tracker |
 | 48 | ✅ | Selenium Browser Automation & Game Bot |
-| 49–100 | ⬜ | Coming soon... |
+| 49 | ✅ | Gym Booking Automation |
+| 50–100 | ⬜ | Coming soon... |
 
 ---
 
@@ -898,7 +918,7 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 
 ## 🚀 What's Next
 
-- Continue from **Day 49** onwards
+- Continue from **Day 50** onwards
 - Upcoming topics: Selenium Capstone Project, Flask Web Development, Databases, Data Science, and more
 
 ---
