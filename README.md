@@ -2,7 +2,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![Course](https://img.shields.io/badge/Udemy-100%20Days%20of%20Code-EC5252?logo=udemy&logoColor=white)](https://www.udemy.com/course/100-days-of-code/)
-[![Progress](https://img.shields.io/badge/Progress-Day%2049%2F100-green)]()
+[![Progress](https://img.shields.io/badge/Progress-Day%2053%2F100-green)]()
 
 This repository documents my journey through Dr. Angela Yu's **"100 Days of Code: The Complete Python Pro Bootcamp"** on Udemy. Each day includes new concepts, exercises, and a project that reinforces learning through hands-on coding.
 
@@ -17,7 +17,7 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 | [Intermediate+ Python & APIs](#-section-3--intermediate-python--apis-days-3240) | 32 – 40 | Email Automation, REST APIs, Authentication, Capstone Projects |
 | [Web Foundations](#-section-4--web-foundations-days-41-44) | 41 – 44 | HTML, Intermediate HTML, CSS Foundations & Intermediate CSS |
 | [Intermediate+ Web Scraping](#-section-5--intermediate-web-scraping-days-45-47) | 45 – 47 | Web Scraping with Beautiful Soup, Scraping Live Websites, Price Tracking, Email Alerts |
-| [Selenium & Browser Automation](#-section-6--selenium--browser-automation-days-4849) | 48 – 49 | Selenium Webdriver, Browser Automation, Game Bots, Real-World Automation |
+| [Selenium & Browser Automation](#-section-6--selenium--browser-automation-days-4853) | 48 – 53 | Selenium Webdriver, Browser Automation, Bots, Web Scraping Capstone |
 
 ---
 
@@ -715,7 +715,7 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 
 ---
 
-## 🔴 Section 6 — Selenium & Browser Automation (Days 48–49)
+## 🔴 Section 6 — Selenium & Browser Automation (Days 48–53)
 
 ---
 
@@ -754,6 +754,62 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 
 ---
 
+### 📅 Day 50 — Intermediate+ Auto Tinder Swiping Bot
+
+**What I Learnt:**
+- Using Selenium to interact with popup windows (`window_handles`, `switch_to.window()`)
+- Automating a Facebook OAuth login popup flow with `send_keys()` and `Keys.ENTER`
+- Handling `ElementClickInterceptedException` to catch "It's a Match" popups and dismiss them
+- Chaining `.find_element()` calls with `XPATH` selectors for deeply nested UI elements
+- Building a robust loop that swipes right 100 times with built-in error recovery
+
+**What I Built:**
+- 💘 [Tinder Auto-Swipe Bot](Tinder-swipe-bot/) — A Selenium bot that logs into Tinder via Facebook OAuth, dismisses location/notification/cookie popups, then auto-likes 100 profiles while gracefully handling match popups and interception errors (`main.py`)
+
+---
+
+### 📅 Day 51 — Intermediate+ Internet Speed X Complaint Bot
+
+**What I Learnt:**
+- Using the `speedtest` Python library to programmatically measure real download and upload speeds in Mbps
+- Combining two tools (speedtest + Selenium) in a single OOP class to measure and report speeds
+- Automating an X (Twitter) login flow with `send_keys()` and `Keys.ENTER`
+- Composing and posting a tweet programmatically using Selenium element interactions
+- Structuring logic into a class with `__init__`, `get_internet_speed()`, and `tweet_at_provider()` methods
+
+**What I Built:**
+- 📶 [X Internet Speed Complaint Bot](X-Complaint-Bot/) — A bot that measures the current internet speed using the `speedtest` library, then automatically logs into X (Twitter) and tweets at the ISP comparing actual vs. promised speeds (`main.py`)
+
+---
+
+### 📅 Day 52 — Intermediate+ Instagram Follower Bot
+
+**What I Learnt:**
+- Logging into a web application programmatically using `By.NAME` selectors and `send_keys()`
+- Handling optional/conditional UI elements (cookie banners, "Save Info", notifications) safely with `find_elements()` and checking for presence before clicking
+- Scrolling inside a modal element using `execute_script()` to load more content dynamically
+- Collecting all follow buttons from a scrollable list and clicking each with exception handling
+- Dismissing interception dialogs (Cancel buttons) when an unexpected modal appears during iteration
+
+**What I Built:**
+- 🤳 [Instagram Follower Bot](Social_Media-Follower-Bot/) — A Selenium bot that logs into a Share-a-Naan (Instagram practice site), navigates to the followers list of a target account, scrolls to load all followers, and follows each one while handling pop-up dialogs (`main.py`)
+
+---
+
+### 📅 Day 53 — Intermediate+ Web Scraping Capstone — Data Entry Job Automation
+
+**What I Learnt:**
+- Combining BeautifulSoup scraping with Selenium form automation in a single pipeline
+- Extracting structured data (address, price, link) from a Zillow-style property listing page
+- Cleaning scraped text with `.strip()` to remove unwanted characters from prices
+- Iterating through all listings and filling a repeating Google Form one entry at a time using Selenium
+- Navigating back to the form for the next submission using a "Submit another response" link
+
+**What I Built:**
+- 🏠 [Property Listing Bot](Property-Listing-Bot/) — A hybrid scraping + automation script that scrapes rental listings (address, price, link) from a Zillow clone using Beautiful Soup, then uses Selenium to automatically fill and submit a Google Form for each listing (`main.py`)
+
+---
+
 ## 🛠️ Tools & Technologies Used
 
 | Category | Tools |
@@ -765,7 +821,7 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 | **APIs** | OpenWeatherMap, Twilio, Pixela, Nutritionix, Sheety, Tequila/Amadeus, Open Trivia DB, ISS API, Kanye REST, YouTube Music API (ytmusicapi) |
 | **Email** | smtplib, SMTP |
 | **Web / Scraping** | HTML, CSS, BeautifulSoup 4, requests |
-| **Browser Automation** | Selenium Webdriver, ChromeDriver |
+| **Browser Automation** | Selenium Webdriver, ChromeDriver, speedtest |
 | **Version Control** | Git & GitHub |
 
 ---
@@ -843,7 +899,15 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 │       └── interaction.py
 ├── automated-cookie-clicker/      # Day 48
 │   └── main.py
-└── Gym-Booking-Automation/        # Day 49
+├── Gym-Booking-Automation/        # Day 49
+│   └── main.py
+├── Tinder-swipe-bot/              # Day 50
+│   └── main.py
+├── X-Complaint-Bot/               # Day 51
+│   └── main.py
+├── Social_Media-Follower-Bot/     # Day 52
+│   └── main.py
+└── Property-Listing-Bot/          # Day 53
     └── main.py
 ```
 
@@ -902,7 +966,11 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 | 47 | ✅ | Automated Amazon Price Tracker |
 | 48 | ✅ | Selenium Browser Automation & Game Bot |
 | 49 | ✅ | Gym Booking Automation |
-| 50–100 | ⬜ | Coming soon... |
+| 50 | ✅ | Auto Tinder Swiping Bot |
+| 51 | ✅ | Internet Speed X Complaint Bot |
+| 52 | ✅ | Instagram Follower Bot |
+| 53 | ✅ | Web Scraping Capstone — Data Entry Automation |
+| 54–100 | ⬜ | Coming soon... |
 
 ---
 
@@ -918,8 +986,8 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 
 ## 🚀 What's Next
 
-- Continue from **Day 50** onwards
-- Upcoming topics: Selenium Capstone Project, Flask Web Development, Databases, Data Science, and more
+- Continue from **Day 54** onwards
+- Upcoming topics: Flask Web Development, Databases, Data Science, and more
 
 ---
 
