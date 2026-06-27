@@ -2,7 +2,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![Course](https://img.shields.io/badge/Udemy-100%20Days%20of%20Code-EC5252?logo=udemy&logoColor=white)](https://www.udemy.com/course/100-days-of-code/)
-[![Progress](https://img.shields.io/badge/Progress-Day%2053%2F100-green)]()
+[![Progress](https://img.shields.io/badge/Progress-Day%2054%2F100-green)]()
 
 This repository documents my journey through Dr. Angela Yu's **"100 Days of Code: The Complete Python Pro Bootcamp"** on Udemy. Each day includes new concepts, exercises, and a project that reinforces learning through hands-on coding.
 
@@ -18,6 +18,7 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 | [Web Foundations](#-section-4--web-foundations-days-41-44) | 41 – 44 | HTML, Intermediate HTML, CSS Foundations & Intermediate CSS |
 | [Intermediate+ Web Scraping](#-section-5--intermediate-web-scraping-days-45-47) | 45 – 47 | Web Scraping with Beautiful Soup, Scraping Live Websites, Price Tracking, Email Alerts |
 | [Selenium & Browser Automation](#-section-6--selenium--browser-automation-days-4853) | 48 – 53 | Selenium Webdriver, Browser Automation, Bots, Web Scraping Capstone |
+| [Flask Web Development](#-section-7--flask-web-development-day-54) | 54 | Backend Web Dev, Flask Server, Routing, Decorators |
 
 ---
 
@@ -810,6 +811,27 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 
 ---
 
+## 🟢 Section 7 — Flask Web Development (Day 54)
+
+---
+
+### 📅 Day 54 — Intermediate+ Introduction to Web Development with Python
+
+**What I Learnt:**
+- Understanding what Backend Web Development is and how Python powers web servers
+- Creating a first web server with Flask using `Flask(__name__)`
+- Understanding the Command Line on Windows and Mac for running Flask apps
+- The `__name__` and `__main__` special attributes built into Python
+- Python Functions as First Class Objects — passing functions as arguments
+- Python Decorator Functions and the `@` syntax
+- Writing a custom Python decorator from scratch
+- How Flask's `@app.route()` is itself a decorator that maps a URL path to a function
+
+**What I Built:**
+- 🌐 [Flask Hello World Server](FlaskFundamentals/) — A minimal Flask web server with a single route that returns an HTML paragraph on the root path, using the `@app.route` decorator and `__main__` entry point (`hello.py`)
+
+---
+
 ## 🛠️ Tools & Technologies Used
 
 | Category | Tools |
@@ -822,6 +844,7 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 | **Email** | smtplib, SMTP |
 | **Web / Scraping** | HTML, CSS, BeautifulSoup 4, requests |
 | **Browser Automation** | Selenium Webdriver, ChromeDriver, speedtest |
+| **Web Framework** | Flask |
 | **Version Control** | Git & GitHub |
 
 ---
@@ -907,8 +930,10 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 │   └── main.py
 ├── Social_Media-Follower-Bot/     # Day 52
 │   └── main.py
-└── Property-Listing-Bot/          # Day 53
-    └── main.py
+├── Property-Listing-Bot/          # Day 53
+│   └── main.py
+└── FlaskFundamentals/             # Day 54
+    └── hello.py
 ```
 
 ---
@@ -970,7 +995,8 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 | 51 | ✅ | Internet Speed X Complaint Bot |
 | 52 | ✅ | Instagram Follower Bot |
 | 53 | ✅ | Web Scraping Capstone — Data Entry Automation |
-| 54–100 | ⬜ | Coming soon... |
+| 54 | ✅ | Introduction to Flask Web Development |
+| 55–100 | ⬜ | Coming soon... |
 
 ---
 
@@ -986,8 +1012,8 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 
 ## 🚀 What's Next
 
-- Continue from **Day 54** onwards
-- Upcoming topics: Flask Web Development, Databases, Data Science, and more
+- Continue from **Day 55** onwards
+- Upcoming topics: Flask Routing, Templates, Jinja2, Databases, Data Science, and more
 
 ---
 
