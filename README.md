@@ -2,7 +2,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![Course](https://img.shields.io/badge/Udemy-100%20Days%20of%20Code-EC5252?logo=udemy&logoColor=white)](https://www.udemy.com/course/100-days-of-code/)
-[![Progress](https://img.shields.io/badge/Progress-Day%2054%2F100-green)]()
+[![Progress](https://img.shields.io/badge/Progress-Day%2057%2F100-green)]()
 
 This repository documents my journey through Dr. Angela Yu's **"100 Days of Code: The Complete Python Pro Bootcamp"** on Udemy. Each day includes new concepts, exercises, and a project that reinforces learning through hands-on coding.
 
@@ -18,7 +18,7 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 | [Web Foundations](#-section-4--web-foundations-days-41-44) | 41 – 44 | HTML, Intermediate HTML, CSS Foundations & Intermediate CSS |
 | [Intermediate+ Web Scraping](#-section-5--intermediate-web-scraping-days-45-47) | 45 – 47 | Web Scraping with Beautiful Soup, Scraping Live Websites, Price Tracking, Email Alerts |
 | [Selenium & Browser Automation](#-section-6--selenium--browser-automation-days-4853) | 48 – 53 | Selenium Webdriver, Browser Automation, Bots, Web Scraping Capstone |
-| [Flask Web Development](#-section-7--flask-web-development-day-54) | 54 | Backend Web Dev, Flask Server, Routing, Decorators |
+| [Flask Web Development](#-section-7--flask-web-development-days-5457) | 54 – 57 | Backend Web Dev, Flask Server, Routing, HTML Templates, Jinja2, Static Files |
 
 ---
 
@@ -832,6 +832,52 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 
 ---
 
+### 📅 Day 55 — Intermediate+ HTML & URL Parsing in Flask and the Higher Lower Game
+
+**What I Learnt:**
+- Working with Flask URL paths and the Flask Debugger
+- Rendering raw HTML elements directly from Flask route functions
+- Using Python decorators to style HTML tags with `*args` and `**kwargs`
+- Advanced decorators — passing arguments through wrapper functions
+- Dynamic URL variables with `<int:variable>` in `@app.route()`
+- Serving static files (images, GIFs) from the `static/` folder in Flask
+
+**What I Built:**
+- 🔢 [Advanced Decorator Exercise](FlaskFundamentals/decorator.py) — A decorator that checks `is_logged_in` before executing a function, demonstrating authentication-style wrapper patterns (`decorator.py`)
+- 🎮 [Higher-Lower URL Game](higher-lower-flask-game/) — A Flask web game where the player guesses a random number (0–9) by navigating to URL paths; each guess returns a coloured HTML response and a matching GIF (`server.py`, `static/*.gif`)
+
+---
+
+### 📅 Day 56 — Intermediate+ Rendering HTML/Static Files and Using Website Templates
+
+**What I Learnt:**
+- Rendering full HTML files with `render_template()` from Flask's `templates/` folder
+- Serving static files (CSS, JS, images, fonts) from Flask's `static/` folder
+- Using pre-built HTML/CSS website templates and wiring them up to a Flask backend
+- Structuring a Flask project with `templates/` and `static/` directories
+
+**What I Built:**
+- 🏠 [Personal Birthday Invitation Site](my-personal-site/) — A Flask-served birthday invitation webpage with custom CSS styling and embedded images rendered via `render_template()` (`server.py`, `templates/birthday.html`, `static/style.css`)
+- 💼 [Name Card Website](Name-Card-Website/) — A professional name card portfolio site built from an HTML template, served through Flask with full static assets (CSS, JS, SCSS, FontAwesome, images) (`server.py`, `templates/index.html`, `static/`)
+
+---
+
+### 📅 Day 57 — Intermediate+ Templating with Jinja in Flask Applications
+
+**What I Learnt:**
+- Using Jinja2 to produce dynamic HTML pages — passing variables from Python to templates with `{{ variable }}`
+- Jinja2 control flow: `{% for %}` loops and `{% if %}` conditionals inside templates
+- Multiline Jinja statements and template inheritance concepts
+- URL building in Flask with `url_for()`
+- Fetching live API data (genderize.io, agify.io) and injecting it into templates
+- Fetching blog post data from an external JSON API and rendering posts dynamically
+
+**What I Built:**
+- 🧪 [Jinja Fundamentals App](jinja-fundamentals/) — A multi-route Flask app demonstrating Jinja2 variables, a gender/age guessing page using the genderize.io and agify.io APIs, and a dynamic blog listing page (`main.py`, `templates/`)
+- 📝 [Blog Capstone Part 1](blog-page/) — A Flask blog app that fetches posts from an external npoint.io JSON API, lists them on the home page, and renders individual post detail pages using Jinja2 templates (`main.py`, `templates/index.html`, `templates/post.html`, `static/css/styles.css`)
+
+---
+
 ## 🛠️ Tools & Technologies Used
 
 | Category | Tools |
@@ -844,7 +890,7 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 | **Email** | smtplib, SMTP |
 | **Web / Scraping** | HTML, CSS, BeautifulSoup 4, requests |
 | **Browser Automation** | Selenium Webdriver, ChromeDriver, speedtest |
-| **Web Framework** | Flask |
+| **Web Framework** | Flask, Jinja2 |
 | **Version Control** | Git & GitHub |
 
 ---
@@ -932,8 +978,27 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 │   └── main.py
 ├── Property-Listing-Bot/          # Day 53
 │   └── main.py
-└── FlaskFundamentals/             # Day 54
-    └── hello.py
+├── FlaskFundamentals/             # Day 54–55
+│   ├── hello.py
+│   └── decorator.py
+├── higher-lower-flask-game/       # Day 55
+│   ├── server.py
+│   └── static/
+├── my-personal-site/              # Day 56
+│   ├── server.py
+│   ├── templates/
+│   └── static/
+├── Name-Card-Website/             # Day 56
+│   ├── server.py
+│   ├── templates/
+│   └── static/
+├── jinja-fundamentals/            # Day 57
+│   ├── main.py
+│   └── templates/
+└── blog-page/                     # Day 57
+    ├── main.py
+    ├── templates/
+    └── static/
 ```
 
 ---
@@ -996,7 +1061,10 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 | 52 | ✅ | Instagram Follower Bot |
 | 53 | ✅ | Web Scraping Capstone — Data Entry Automation |
 | 54 | ✅ | Introduction to Flask Web Development |
-| 55–100 | ⬜ | Coming soon... |
+| 55 | ✅ | Flask URL Routing & Higher-Lower Game |
+| 56 | ✅ | Flask HTML Templates & Static Files |
+| 57 | ✅ | Jinja2 Templating & Blog Capstone Part 1 |
+| 58–100 | ⬜ | Coming soon... |
 
 ---
 
@@ -1012,8 +1080,8 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 
 ## 🚀 What's Next
 
-- Continue from **Day 55** onwards
-- Upcoming topics: Flask Routing, Templates, Jinja2, Databases, Data Science, and more
+- Continue from **Day 58** onwards
+- Upcoming topics: WTForms, Flask-SQLAlchemy, REST APIs with Flask, Data Science, and more
 
 ---
 
