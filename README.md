@@ -1,4 +1,4 @@
-# 🐍 Python Learning Journey
+# 🐍 Python Projects
 
 [![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![Projects](https://img.shields.io/badge/Projects-50%2B-brightgreen)](#-featured-projects)
