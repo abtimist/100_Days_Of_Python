@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Library</title>
+    <style>
+        body { font-family: sans-serif; max-width: 700px; margin: 40px auto; }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { padding: 10px 14px; border-bottom: 1px solid #ddd; text-align: left; }
+        th { background: #f4f4f4; }
+        a { color: #3498db; text-decoration: none; margin-right: 8px; }
+        a:hover { text-decoration: underline; }
+        .add-btn { display: inline-block; margin-top: 20px; padding: 10px 18px; background: #2ecc71; color: white; border-radius: 4px; }
+    </style>
+</head>
+<body>
+    <h1>📚 My Book Library</h1>
+    {% if books %}
+        <table>
+            <thead>
+                <tr><th>#</th><th>Title</th><th>Author</th><th>Rating</th><th>Actions</th></tr>
+            </thead>
+            <tbody>
+                {% for book in books %}
+                <tr>
+                    <td>{{ loop.index }}</td>
+                    <td>{{ book.title }}</td>
+                    <td>{{ book.author }}</td>
+                    <td>⭐ {{ book.rating }}/10</td>
+                    <td>
+                        <a href="/edit/{{ book.id }}">Edit</a>
+                        <a href="/delete/{{ book.id }}" onclick="return confirm('Remove this book?')">Delete</a>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% else %}
+        <p>No books yet.</p>
+    {% endif %}
+    <a class="add-btn" href="/add">+ Add Book</a>
+</body>
+</html>

@@ -36,7 +36,8 @@ A curated collection of Python projects built progressively — starting from co
 - **API Integration** — REST APIs, authentication, environment variables, smtplib, multiple third-party services
 - **Web Scraping** — BeautifulSoup 4, requests, CSS selectors, regex, ethics & `robots.txt`
 - **Browser Automation** — Selenium WebDriver, WebDriverWait, expected conditions, multi-window handling
-- **Flask Web Development** — Routing, `render_template`, Jinja2 templating, static files, dynamic URLs
+- **Flask Web Development** — Routing, `render_template`, Jinja2 templating, static files, dynamic URLs, WTForms, Flask-SQLAlchemy, REST APIs
+- **Data Science** — Pandas, Matplotlib, Data Cleaning, Aggregation, Visualization
 - **Security** — `.env` files, `python-dotenv`, environment-based credential management
 
 ---
@@ -48,12 +49,12 @@ A curated collection of Python projects built progressively — starting from co
 | **Language** | Python 3 |
 | **IDE** | PyCharm, VS Code |
 | **GUI** | Tkinter, Turtle Graphics |
-| **Data** | Pandas, CSV, JSON |
+| **Data** | Pandas, Matplotlib, CSV, JSON |
 | **APIs** | OpenWeatherMap, Twilio, Pixela, Nutritionix, Sheety, Tequila/Amadeus, Open Trivia DB, ISS API, Kanye REST, YouTube Music (ytmusicapi) |
 | **Email** | smtplib, SMTP |
 | **Web / Scraping** | HTML, CSS, BeautifulSoup 4, requests |
 | **Browser Automation** | Selenium WebDriver, ChromeDriver, speedtest |
-| **Web Framework** | Flask, Jinja2 |
+| **Web Framework** | Flask, Jinja2, WTForms, Flask-SQLAlchemy |
 | **Version Control** | Git & GitHub |
 
 ---
@@ -69,6 +70,8 @@ A curated collection of Python projects built progressively — starting from co
 | [X Internet Speed Complaint Bot](X-Complaint-Bot/) | Measures real internet speed and auto-tweets at the ISP if speeds are below promised | speedtest, Selenium |
 | [Property Listing Bot](Property-Listing-Bot/) | Scrapes a Zillow-style listing page and auto-fills a Google Form for each result | BeautifulSoup, Selenium |
 | [Blog Capstone](blog-page/) | Flask app with dynamic Jinja2 templates pulling posts from an external JSON API | Flask, Jinja2 |
+| [Cafe REST API](cafe-api/) | Fully functional RESTful API for cafes with GET, POST, PATCH, and DELETE endpoints | Flask, SQLAlchemy |
+| [Book Library](book-library/) | CRUD application using Flask-SQLAlchemy to manage a book collection | Flask, SQLAlchemy |
 | [Blackjack Game](Blackjack%20Game/) | Complete Blackjack card game with ace handling, OOP structure, and ASCII art | Python, OOP |
 
 ---
@@ -149,7 +152,13 @@ Python-Learning-Journey/
     ├── my-personal-site/
     ├── Name-Card-Website/
     ├── jinja-fundamentals/
-    └── blog-page/
+    ├── blog-page/
+    ├── flask-forms/
+    ├── book-library/
+    └── cafe-api/
+
+├── Data Science/                      # Pandas, Matplotlib, Analysis
+│   └── data-science-exploration/
 ```
 
 ---
@@ -428,6 +437,31 @@ Python-Learning-Journey/
 **What I Built:**
 - 🧪 [Jinja Fundamentals App](jinja-fundamentals/) — Multi-route Flask app with dynamic templates, genderize.io/agify.io API integration, and blog listing
 - 📝 [Blog Capstone](blog-page/) — Flask blog app fetching posts from a JSON API and rendering home + individual post pages with Jinja2
+
+---
+
+### Advanced Flask (Forms, Databases, REST APIs)
+**What I Learnt:** Flask-WTF forms, CSRF protection, Flask-SQLAlchemy models, CRUD operations, building REST APIs with GET/POST/PATCH/DELETE endpoints
+
+**What I Built:**
+- 📝 [Flask WTForms](flask-forms/) — User registration and login forms with validation
+- 📚 [Book Library](book-library/) — Personal book collection manager using SQLite and SQLAlchemy
+- ☕ [Cafe REST API](cafe-api/) — A custom REST API for finding and managing cafes
+
+</details>
+
+---
+
+<details>
+<summary><strong>🟤 Data Science — Pandas & Data Analysis</strong></summary>
+
+<br>
+
+### Data Exploration & Visualization
+**What I Learnt:** Loading datasets with Pandas, data cleaning, aggregation (`groupby`), summary statistics, data visualization using Matplotlib
+
+**What I Built:**
+- 📈 [Salary Analysis](data-science-exploration/) — Analyzes a dataset of employee salaries by department and role, and generates visual charts
 
 </details>
 

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <style>
+        body { font-family: sans-serif; max-width: 480px; margin: 60px auto; }
+        input { display: block; width: 100%; margin: 6px 0 14px; padding: 8px; box-sizing: border-box; }
+        .error { color: red; font-size: 0.85em; }
+        button { padding: 10px 20px; background: #3498db; color: white; border: none; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>Create an Account</h1>
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}{% for msg in messages %}<p style="color:red">{{ msg }}</p>{% endfor %}{% endif %}
+    {% endwith %}
+    <form method="POST">
+        {{ form.hidden_tag() }}
+        <label>{{ form.name.label }}</label>
+        {{ form.name() }}
+        {% for e in form.name.errors %}<span class="error">{{ e }}</span>{% endfor %}
+
+        <label>{{ form.email.label }}</label>
+        {{ form.email() }}
+        {% for e in form.email.errors %}<span class="error">{{ e }}</span>{% endfor %}
+
+        <label>{{ form.password.label }}</label>
+        {{ form.password() }}
+        {% for e in form.password.errors %}<span class="error">{{ e }}</span>{% endfor %}
+
+        <label>{{ form.confirm.label }}</label>
+        {{ form.confirm() }}
+        {% for e in form.confirm.errors %}<span class="error">{{ e }}</span>{% endfor %}
+
+        {{ form.submit() }}
+    </form>
+    <p>Already have an account? <a href="/login">Log in</a></p>
+</body>
+</html>

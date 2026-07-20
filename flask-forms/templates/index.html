@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flask Forms</title>
+    <style>
+        body { font-family: sans-serif; max-width: 600px; margin: 60px auto; }
+        a { margin-right: 12px; }
+        .flashes { color: #c0392b; }
+    </style>
+</head>
+<body>
+    <h1>Flask WTForms Demo</h1>
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            <ul class="flashes">
+                {% for msg in messages %}<li>{{ msg }}</li>{% endfor %}
+            </ul>
+        {% endif %}
+    {% endwith %}
+    <a href="/register">Register</a>
+    <a href="/login">Login</a>
+</body>
+</html>
