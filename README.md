@@ -1,884 +1,33 @@
-# 🐍 100 Days of Python — Angela Yu's Bootcamp
+# 🐍 Python Learning Journey
 
 [![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)](https://www.python.org/)
-[![Course](https://img.shields.io/badge/Udemy-100%20Days%20of%20Code-EC5252?logo=udemy&logoColor=white)](https://www.udemy.com/course/100-days-of-code/)
-[![Progress](https://img.shields.io/badge/Progress-Day%2057%2F100-green)]()
+[![Projects](https://img.shields.io/badge/Projects-50%2B-brightgreen)](#-featured-projects)
+[![Topics](https://img.shields.io/badge/Topics-Core%20%7C%20GUI%20%7C%20APIs%20%7C%20Scraping%20%7C%20Automation%20%7C%20Flask-orange)](#-projects-by-topic)
 
-This repository documents my journey through Dr. Angela Yu's **"100 Days of Code: The Complete Python Pro Bootcamp"** on Udemy. Each day includes new concepts, exercises, and a project that reinforces learning through hands-on coding.
+This repository documents my Python learning journey through hands-on projects and exercises. It contains the projects I completed while building my Python fundamentals before transitioning into AI engineering, backend development, and larger real-world applications.
 
 ---
 
-## 📖 Table of Contents
+## 👤 About
 
-| Section | Days | Focus |
-|---------|------|-------|
-| [Beginner Python](#-section-1--beginner-python-days-114) | 1 – 14 | Variables, Control Flow, Functions, Loops, Beginner Projects |
-| [Intermediate Python & GUI](#-section-2--intermediate-python--gui-days-1531) | 15 – 31 | OOP, Turtle Graphics, Tkinter GUI, Files, Pandas, APIs |
-| [Intermediate+ Python & APIs](#-section-3--intermediate-python--apis-days-3240) | 32 – 40 | Email Automation, REST APIs, Authentication, Capstone Projects |
-| [Web Foundations](#-section-4--web-foundations-days-41-44) | 41 – 44 | HTML, Intermediate HTML, CSS Foundations & Intermediate CSS |
-| [Intermediate+ Web Scraping](#-section-5--intermediate-web-scraping-days-45-47) | 45 – 47 | Web Scraping with Beautiful Soup, Scraping Live Websites, Price Tracking, Email Alerts |
-| [Selenium & Browser Automation](#-section-6--selenium--browser-automation-days-4853) | 48 – 53 | Selenium Webdriver, Browser Automation, Bots, Web Scraping Capstone |
-| [Flask Web Development](#-section-7--flask-web-development-days-5457) | 54 – 57 | Backend Web Dev, Flask Server, Routing, HTML Templates, Jinja2, Static Files |
+A curated collection of Python projects built progressively — starting from core language fundamentals and advancing through GUI development, API integration, web scraping, browser automation, and Flask web development. Each project was built to reinforce a specific concept through practical application.
 
 ---
 
-## 🟢 Section 1 — Beginner Python (Days 1–14)
+## 🧠 Skills Learned
 
----
-
-### 📅 Day 1 — Working with Variables
-
-**What I Learnt:**
-- Printing output using `print()`
-- String concatenation and manipulation
-- Variables and naming conventions
-- The `input()` function for user interaction
-- Debugging basic syntax errors
-
-**What I Built:**
-- 🎸 [Band Name Generator](brandNameGenerator.py) — Generates a fun band name by combining user's city and pet name
-
----
-
-### 📅 Day 2 — Data Types & String Manipulation
-
-**What I Learnt:**
-- Data types: Strings, Integers, Floats, Booleans
-- Type conversion / type casting (`int()`, `float()`, `str()`)
-- Mathematical operations in Python
-- F-strings for formatted output
-- The `round()` function
-
-**What I Built:**
-- 💰 [Tip Calculator](TipCalculator.py) — Splits a restaurant bill among friends with a custom tip percentage
-
----
-
-### 📅 Day 3 — Control Flow & Logical Operators
-
-**What I Learnt:**
-- Conditional statements: `if`, `elif`, `else`
-- Comparison operators (`==`, `!=`, `>`, `<`, `>=`, `<=`)
-- Logical operators: `and`, `or`, `not`
-- Nested `if` statements
-- Multiple `if` vs `if/elif/else` differences
-
-**What I Built:**
-- 🏝️ [Treasure Island Game](TreasureIslandGame.py) — A text-based choose-your-own-adventure game with ASCII art
-- 💕 [Love Calculator](loveCalculator.py) — Calculates a "love score" based on how many letters of the names match with "TRUE" and "LOVE"
-
----
-
-### 📅 Day 4 — Randomisation & Python Lists
-
-**What I Learnt:**
-- The `random` module (`randint()`, `choice()`, `choices()`)
-- Python Lists: creating, indexing, and modifying
-- Nested lists
-- Index errors and how to avoid them
-
-**What I Built:**
-- ✊✋✌️ [Rock Paper Scissors](rockPaperScissor.py) — Classic game against the computer with ASCII art visuals
-
----
-
-### 📅 Day 5 — Python Loops
-
-**What I Learnt:**
-- `for` loops and iterating over lists/ranges
-- The `range()` function
-- `while` loops
-- Loop control flow
-- Using loops for accumulation patterns
-
-**What I Built:**
-- 🔐 [Password Generator](passwordGenerator.py) — Generates strong random passwords with customizable letters, symbols, and numbers count
-
----
-
-### 📅 Day 6 — Python Functions & Karel
-
-**What I Learnt:**
-- Defining and calling functions
-- Indentation and code blocks
-- The concept of reusable code
-- Solving problems with functions (Karel robot exercises)
-- While loops in the context of functions
-
-**What I Built:**
-- 🤖 Karel Robot challenges (Reeborg's World — web-based, no local file)
-
----
-
-### 📅 Day 7 — Hangman Project
-
-**What I Learnt:**
-- Flow charts for planning program logic
-- Using `for` loops with strings
-- Working with multiple Python files/modules
-- Using `import` to organize code
-- ASCII art for visual feedback
-- Tracking game state with lists
-
-**What I Built:**
-- 🪓 [Hangman Game](Hangman%20game/) — Full Hangman game with word list, ASCII art stages, and lives tracking (`main.py`, `hangman_art.py`, `hangman_words.py`)
-
----
-
-### 📅 Day 8 — Function Parameters & Caesar Cipher
-
-**What I Learnt:**
-- Functions with parameters (positional & keyword arguments)
-- The difference between parameters and arguments
-- Multiple return values
-- Caesar Cipher encryption/decryption logic
-
-**What I Built:**
-- 🔒 [Caesar Cipher](Caeser%20Cipher/) — Encrypt and decrypt messages using the classic Caesar Cipher shift algorithm with ASCII art logo (`main.py`, `art.py`)
-
----
-
-### 📅 Day 9 — Dictionaries & Nesting
-
-**What I Learnt:**
-- Python Dictionaries: creating, accessing, and modifying
-- Nesting: lists in dictionaries, dictionaries in lists, dictionaries in dictionaries
-- Iterating over dictionaries
-- Using dictionaries to store structured data
-
-**What I Built:**
-- 🔨 [Secret Auction](Secret%20Auction/) — A blind auction program where multiple users can bid secretly, and the highest bidder wins (`main.py`, `art.py`)
-
----
-
-### 📅 Day 10 — Functions with Outputs (Return Values)
-
-**What I Learnt:**
-- Functions with return values
-- The `return` keyword and multiple return statements
-- Docstrings for documenting functions
-- Combining dictionaries, lists, and functions
-- Recursion basics
-
-**What I Built:**
-- 🧮 [Simple Calculator](Simple%20Calculator/) — A fully functional calculator that supports chaining operations and restarting calculations (`main.py`, `art.py`)
-
----
-
-### 📅 Day 11 — Blackjack Capstone Project
-
-**What I Learnt:**
-- Applying all concepts from Days 1–10 in a capstone project
-- Complex program flow with multiple functions
-- Game state management
-- Procedural programming best practices
-- Planning before coding (pseudocode / flowcharts)
-
-**What I Built:**
-- 🃏 [Blackjack Game](Blackjack%20Game/) — A complete Blackjack (21) card game against the computer with proper game rules, ace handling, and ASCII art (`main.py`, `art.py`)
-
----
-
-### 📅 Day 12 — Scope & Namespacing
-
-**What I Learnt:**
-- Local vs. Global scope
-- Namespaces in Python
-- The `global` keyword (and why to avoid it)
-- Block scope (Python doesn't have it unlike other languages)
-- Constants and naming conventions (e.g., `UPPER_CASE`)
-
-**What I Built:**
-- 🔢 [Number Guessing Game](Number%20Gussing%20Game/) — Guess the number between 1–100 with Easy (10 attempts) and Hard (5 attempts) difficulty modes (`main.py`, `art.py`)
-
----
-
-### 📅 Day 13 — Debugging
-
-**What I Learnt:**
-- Common types of bugs: syntax, runtime, logical
-- Debugging techniques: `print()` statements, using a debugger
-- Reading error messages and tracebacks
-- Reproducing bugs systematically
-- Using breakpoints
-
-**What I Built:**
-- 🐛 Debugging exercises (practice-based, no standalone project)
-
----
-
-### 📅 Day 14 — Higher Lower Game Project
-
-**What I Learnt:**
-- Applying all beginner Python concepts in a complete project
-- Comparing data from a dataset
-- Game loop logic with score tracking
-- Working with external data files
-- Creating engaging CLI experiences
-
-**What I Built:**
-- 📊 [Higher Lower Game](Higher%20Lower%20game/) — Compare follower counts of celebrities/brands and guess who has more. Features game data, score tracking, and ASCII art (`main.py`, `art.py`, `game_data.py`)
-
----
-
-## 🟡 Section 2 — Intermediate Python & GUI (Days 15–31)
-
----
-
-### 📅 Day 15 — Local Dev Environment Setup & Coffee Machine
-
-**What I Learnt:**
-- Setting up a local development environment (PyCharm / VS Code)
-- Running Python scripts locally instead of online IDEs
-- Working with complex dictionaries and nested data
-- Modelling real-world processes in code
-- Handling user input with validation
-
-**What I Built:**
-- ☕ [Coffee Machine (Procedural)](CoffeeMachine.py) — A virtual coffee machine that manages resources, processes coin payments, and serves espresso/latte/cappuccino
-
----
-
-### 📅 Day 16 — Object-Oriented Programming (OOP)
-
-**What I Learnt:**
-- Introduction to OOP: classes and objects
-- Attributes and methods
-- Constructors with `__init__()`
-- The `self` keyword
-- Refactoring procedural code to OOP
-- Using external modules/classes
-
-**What I Built:**
-- ☕ [Coffee Machine (OOP Version)](Coffee%20Machine%20(OOPs)/) — Refactored the Day 15 Coffee Machine using OOP principles with separate classes: `CoffeeMaker`, `MoneyMachine`, `Menu` (`main.py`, `coffee_maker.py`, `menu.py`, `money_machine.py`)
-
----
-
-### 📅 Day 17 — The Quiz Project & Benefits of OOP
-
-**What I Learnt:**
-- Creating classes from scratch
-- Class attributes vs. instance attributes
-- Designing with OOP: separating data, models, and logic
-- Working with True/False question banks
-- Understanding the benefits of OOP (modularity, reusability)
-
-**What I Built:**
-- ❓ [Quiz Game (OOP)](Quiz%20Game(OOPs)/) — A True/False quiz game built with OOP — separate classes for Question model, QuizBrain logic, and data (`main.py`, `question_model.py`, `quiz_brain.py`, `data.py`)
-
----
-
-### 📅 Day 18 — Turtle Graphics & GUI
-
-**What I Learnt:**
-- The `turtle` module for graphics
-- Drawing shapes, lines, and patterns
-- RGB colors and `colormode(255)`
-- Importing and using external packages
-- Creating artistic patterns programmatically
-
-**What I Built:**
-- 🐢 [Random Walk](RandomWalk/) — A turtle graphics program that draws random colorful paths (`randomwalk.py`, `shapes.py`)
-- 🌀 [Spirograph](spirograph.py) — Draws beautiful spirograph patterns using turtle graphics with random colors
-- 🎨 [Spot Painting](spotpainting/) — Recreates a Damien Hirst-style spot painting using turtle graphics and extracted color palette (`spot.py`)
-
----
-
-### 📅 Day 19 — Instances, State & Higher-Order Functions
-
-**What I Learnt:**
-- Event listeners in turtle graphics
-- Higher-order functions (passing functions as arguments)
-- Object state and tracking changes
-- Turtle screen events: `onkey()`, `listen()`
-- Coordinate system in turtle graphics
-
-**What I Built:**
-- 🐢 [Turtle Race](TurtleRace/) — A colorful turtle racing game where users bet on which turtle wins, using event listeners and random movement (`turtleRace.py`, `eventListeners.py`)
-
----
-
-### 📅 Day 20 — Snake Game Part 1
-
-**What I Learnt:**
-- Animation with screen refresh using `tracer()` and `update()`
-- Coordinate-based movement on screen
-- Controlling objects with keyboard input
-- Creating a snake body using multiple turtle segments
-- Screen setup and configuration
-
-**What I Built:**
-- 🐍 [Snake Game V1](SnakeGame/) — Part 1 of the classic Snake game with smooth movement, keyboard controls, food spawning, and collision detection (`main.py`, `snake.py`, `food.py`, `scoreboard.py`)
-
----
-
-### 📅 Day 21 — Snake Game Part 2 (Inheritance & List Slicing)
-
-**What I Learnt:**
-- Class inheritance in Python
-- List slicing techniques
-- Detecting collisions (wall & tail collisions)
-- Extending the snake when eating food
-- Score tracking and game over logic
-
-**What I Built:**
-- 🐍 [Snake Game V2](SnakeGame%20V0.2/) — Complete Snake game with inheritance-based scoreboard, high score tracking saved to file, tail collision detection, and polished gameplay (`main.py`, `snake.py`, `food.py`, `scoreboard.py`, `data.txt`)
-
----
-
-### 📅 Day 22 — Pong: The Famous Arcade Game
-
-**What I Learnt:**
-- Building a full game with multiple classes
-- Paddle and ball physics (movement, bouncing)
-- Collision detection with walls and paddles
-- Scoring system for two players
-- Game loop timing and speed control
-
-**What I Built:**
-- 🏓 [Pong Game](Pong/) — Classic 2-player Pong arcade game with paddles, ball physics, wall/paddle collisions, and a scoreboard (`main.py`, `paddle.py`, `ball.py`, `scoreboard.py`)
-
----
-
-### 📅 Day 23 — Turtle Crossing Capstone Project
-
-**What I Learnt:**
-- Applying OOP to build a multi-class game from scratch
-- Managing multiple moving objects on screen
-- Increasing game difficulty over time
-- End-to-end game development lifecycle
-- Capstone-level problem solving
-
-**What I Built:**
-- 🚗 [Turtle Crossing Game](turtle-crossing/) — A Frogger-style game where a turtle must cross a busy road, with increasing difficulty levels (`main.py`, `player.py`, `car_manager.py`, `scoreboard.py`)
-
----
-
-### 📅 Day 24 — Files, Directories & Paths
-
-**What I Learnt:**
-- Reading and writing files with `open()`
-- File modes: `"r"`, `"w"`, `"a"`
-- Absolute vs. relative file paths
-- Using `with` statement for safe file handling
-- The `readlines()` and `writelines()` methods
-
-**What I Built:**
-- ✉️ [Mail Merge](MailMerge/) — Automatically generates personalized letters by replacing placeholder names from a template with names from a list (`main.py`, `Input/`, `Output/`)
-
----
-
-### 📅 Day 25 — CSV Data & the Pandas Library
-
-**What I Learnt:**
-- Working with CSV files
-- Introduction to the Pandas library
-- DataFrames and Series
-- Reading CSVs with `pandas.read_csv()`
-- Filtering, iterating, and creating DataFrames
-- Exporting data to CSV
-
-**What I Built:**
-- 🐿️ [NYC Squirrel Census Analysis](NYC_Squirrel_Census_2018/) — Analyzes the 2018 Central Park Squirrel Census data to count squirrels by fur color using Pandas (`main.py`, CSV data)
-- 🗺️ [U.S. States Game](us_states_game/) — An interactive quiz where you name all 50 U.S. states on a map, with Pandas tracking correct answers and exporting states to learn (`main.py`, `50_states.csv`, `blank_states_img.gif`)
-
----
-
-### 📅 Day 26 — List Comprehensions & NATO Alphabet
-
-**What I Learnt:**
-- List comprehension syntax and patterns
-- Dictionary comprehension
-- Iterating over Pandas DataFrames with comprehensions
-- Filtering with conditional list comprehensions
-- Writing concise Pythonic code
-
-**What I Built:**
-- 🔤 [NATO Alphabet Converter](NATO-alphabet/) — Converts any word into its NATO phonetic alphabet equivalent using dictionary comprehension and Pandas (`main.py`, `nato_phonetic_alphabet.csv`)
-
----
-
-### 📅 Day 27 — Tkinter, *args, **kwargs & GUI Programs
-
-**What I Learnt:**
-- Introduction to `tkinter` for building desktop GUIs
-- `*args` (unlimited positional arguments) and `**kwargs` (unlimited keyword arguments)
-- Creating windows, labels, buttons, entries, and layouts
-- The `grid()` and `pack()` layout managers
-- Event-driven programming with buttons and callbacks
-
-**What I Built:**
-- 🖥️ [Intro to Tkinter](intro_to_tkinter/) — Tkinter GUI experiments and widget demos (`main.py`)
-- 📏 [Miles to KM Converter](miles_to_km_converter/) — A GUI app that converts miles to kilometers using Tkinter (`main.py`)
-
----
-
-### 📅 Day 28 — Tkinter Dynamic Typing & Pomodoro App
-
-**What I Learnt:**
-- Tkinter `Canvas` widget for drawing and images
-- `after()` method for timed events
-- Dynamic typing in Python
-- Building countdown timers
-- Managing UI state with global variables
-- Color constants and UI theming
-
-**What I Built:**
-- 🍅 [Pomodoro App](pomodoro-app/) — A full Pomodoro timer GUI with work/break cycles, countdown display, tomato image, and check marks for completed sessions (`main.py`, `tomato.png`)
-
----
-
-### 📅 Day 29 — Building a Password Manager with Tkinter
-
-**What I Learnt:**
-- Multi-widget Tkinter layouts with `grid()`
-- Reading/writing data to files
-- The `pyperclip` module for clipboard functionality
-- `messagebox` for dialog pop-ups
-- Generating and storing secure passwords
-- UI/UX design for forms
-
-**What I Built:**
-- 🔑 [Password Manager](password_manager/) — A GUI password manager that generates strong passwords, saves credentials to a JSON file, and copies passwords to clipboard (`main.py`, `logo.png`, `data.json`)
-
----
-
-### 📅 Day 30 — Errors, Exceptions & JSON Data
-
-**What I Learnt:**
-- `try`, `except`, `else`, `finally` blocks
-- Handling specific exceptions (`FileNotFoundError`, `KeyError`, etc.)
-- Raising custom exceptions with `raise`
-- Reading and writing JSON data (`json.load()`, `json.dump()`, `json.update()`)
-- Updating and searching JSON files
-
-**What I Built:**
-- 🔑 [Password Manager v2](password_manager/) — Enhanced the Password Manager with JSON storage, search functionality, and robust error handling (`main.py`, `data.json`)
-
----
-
-### 📅 Day 31 — Flash Card Capstone Project
-
-**What I Learnt:**
-- Tkinter `Canvas` for complex layouts with images and text
-- Working with Pandas to load and filter CSV data
-- Timers and delayed function execution with `after()`
-- Saving learning progress to file
-- Building a complete study tool end-to-end
-
-**What I Built:**
-- 🃏 [Flash Card App](flash-card-project/) — A French-to-English flashcard learning app with card flip animation, progress tracking, and words-to-learn filtering (`main.py`, `data/french_words.csv`, card images)
-
----
-
-## 🟠 Section 3 — Intermediate+ Python & APIs (Days 32–40)
-
----
-
-### 📅 Day 32 — Send Email (smtplib) & Manage Dates (datetime)
-
-**What I Learnt:**
-- Sending emails with Python using `smtplib`
-- SMTP protocol and email server configuration
-- The `datetime` module: date, time, and weekday
-- Automating actions based on date and time
-- Reading from text files for email content
-
-**What I Built:**
-- 📧 [Monday Motivation Quotes](monday_quotes/) — Sends a random motivational quote via email every Monday using `smtplib` and `datetime` (`main.py`, `quotes.txt`)
-- 🎂 [Birthday Wisher](birthday-wisher/) — Automatically sends personalized birthday emails by checking a CSV of birthdays against today's date (`main.py`, `birthdays.csv`, `letter_templates/`)
-
----
-
-### 📅 Day 33 — API Endpoints & API Parameters
-
-**What I Learnt:**
-- What is an API and how it works
-- Making HTTP requests with the `requests` library
-- API endpoints, parameters, and response codes
-- Parsing JSON API responses
-- Working with the ISS (International Space Station) API and Sunrise/Sunset API
-
-**What I Built:**
-- 🛰️ [ISS Overhead Notifier](ISS_overhead_notifier/) — Tracks the ISS position in real time and sends an email notification when it's overhead during nighttime (`main.py`)
-- 🌅 [Kanye Quotes App](kanye_quotes/) — A Tkinter GUI that fetches random Kanye West quotes from an API and displays them on a stylish card (`main.py`, `kanye.png`, `background.png`)
-
----
-
-### 📅 Day 34 — API Practice: GUI Quiz App
-
-**What I Learnt:**
-- Fetching data from the Open Trivia Database API
-- Unescaping HTML entities in API responses
-- Building a quiz UI with Tkinter
-- Connecting API data to a GUI application
-- Real-time score tracking and visual feedback (green/red flashes)
-
-**What I Built:**
-- 🧠 [Quizzler App](quizzler-app/) — A GUI-based True/False quiz app that pulls questions from the Open Trivia API, with score tracking and color-coded feedback (`main.py`, `ui.py`, `quiz_brain.py`, `question_model.py`, `data.py`)
-
----
-
-### 📅 Day 35 — Keys, Authentication & Environment Variables
-
-**What I Learnt:**
-- API authentication with API keys
-- Environment variables for securing sensitive data
-- The `.env` file and `python-dotenv`
-- Working with weather APIs (OpenWeatherMap)
-- Sending SMS notifications via Twilio API
-
-**What I Built:**
-- 🌧️ [Rain Alert](rain_alert/) — Checks the weather forecast using the OpenWeatherMap API and sends an SMS alert via Twilio if rain is expected (`main.py`)
-
----
-
-### 📅 Day 36 — Stock Trading News Alert
-
-**What I Learnt:**
-- Chaining multiple APIs together in one project
-- Stock price monitoring with the Alpha Vantage API
-- Fetching news articles with the News API
-- Percentage change calculations
-- Conditional SMS notifications based on market movement
-
-**What I Built:**
-- 📈 [Stock News Notifier](stock-news-notifier/) — Monitors stock price changes and sends SMS alerts with relevant news articles when the price moves significantly (`main.py`)
-
----
-
-### 📅 Day 37 — Habit Tracking with Pixela API
-
-**What I Learnt:**
-- Advanced API usage: POST, PUT, DELETE HTTP methods
-- API authentication with custom headers
-- Creating and managing user accounts via API
-- Graph creation and data visualization through APIs
-- Working with the Pixela API for habit tracking
-
-**What I Built:**
-- 📊 [Habit Tracker](habit-tracker/) — A habit tracking app that creates a Pixela graph and logs daily progress using POST/PUT/DELETE API calls with custom authentication headers (`main.py`)
-
----
-
-### 📅 Day 38 — Workout Tracking with Google Sheets
-
-**What I Learnt:**
-- Natural Language Processing for exercise input (Nutritionix API)
-- Automatic logging to Google Sheets via the Sheety API
-- Working with date and time formatting
-- Environment variables and Bearer Token authentication
-- Connecting multiple APIs in a pipeline
-
-**What I Built:**
-- 🏋️ [Exercise Tracker](exercise_tracker/) — Logs workouts using natural language input (e.g., "ran 5km and cycled 30 minutes"), processes them through the Nutritionix API, and records calories/duration to Google Sheets via Sheety (`main.py`)
-
----
-
-### 📅 Day 39 — Flight Deal Finder (Part 1)
-
-**What I Learnt:**
-- Searching for cheap flights using the Amadeus/Tequila API
-- Structuring a large multi-file project
-- The data manager pattern for spreadsheet interaction
-- Flight search logic with origin/destination and date ranges
-- Object-oriented data modelling for flight results
-
-**What I Built:**
-- ✈️ [Flight Deals — Part 1](flight-deals/) — Searches for the cheapest flights from your city to destinations stored in a Google Sheet, using the Tequila Flight Search API (`main.py`, `flight_search.py`, `data_manager.py`, `flight_data.py`, `notification_manager.py`)
-
----
-
-### 📅 Day 40 — Flight Deal Finder (Part 2)
-
-**What I Learnt:**
-- Adding customer sign-up and email notifications
-- Multi-city and stopover flight search logic
-- Sending formatted email alerts with flight details
-- Error handling for API failures
-- Building a complete end-to-end automated system
-
-**What I Built:**
-- ✈️ [Flight Deals — Complete](flight-deals/) — Extended the Flight Deal Finder with email/SMS notifications, customer management, and multi-city search with stopovers (`notification_manager.py`, `main.py`, `requirements.txt`)
-
----
-
-## 🔵 Section 4 — Web Foundations (Days 41–44)
-
----
-
-### 📅 Day 41 — HTML Foundations
-
-**What I Learnt:**
-- Introduction to HTML (HyperText Markup Language)
-- HTML document structure: `<!DOCTYPE>`, `<html>`, `<head>`, `<body>`
-- Heading tags (`<h1>` to `<h6>`) and paragraph tags (`<p>`)
-- Self-closing tags like `<br>` and `<hr>`
-- Creating ordered and unordered lists (`<ol>`, `<ul>`, `<li>`)
-
-**What I Built:**
-- 🎬 [Movie Ranking Page](web-foundations/HTML%20Projects/movie_ranking/) — An HTML page ranking top movies using heading and list elements (`index.html`)
-- 🍳 [Recipe Page](web-foundations/HTML%20Projects/recipe_using_lists/) — A recipe page using nested HTML lists for ingredients and instructions (`index.html`)
-
----
-
-### 📅 Day 42 — Intermediate HTML
-
-**What I Learnt:**
-- Nesting lists within lists
-- The `<img>` element and `src`/`alt` attributes
-- Anchor tags `<a>` and the `href` attribute for hyperlinks
-- Image elements with sizing
-- Building multi-page websites with links
-
-**What I Built:**
-- 📋 [Nested List Page](web-foundations/HTML%20Projects/Nested%20list/) — An HTML page demonstrating complex nested list structures (`index.html`)
-- 🖼️ [Image Element Page](web-foundations/HTML%20Projects/Image%20Element/) — Practicing embedding images in HTML (`index.html`)
-- 🔗 [Anchor Tags Page](web-foundations/HTML%20Projects/Anchor%20Tags/) — Practicing creating hyperlinks and navigation with anchor tags (`index.html`)
-
----
-
-### 📅 Day 43 — Introduction to CSS
-
-**What I Learnt:**
-- How to add CSS to HTML (Inline, Internal, and External CSS)
-- CSS Selectors (Tag, Class, and ID selectors) and their specificity rules
-- Customizing colors, fonts, backgrounds, and layout aesthetics
-- Structuring files with external stylesheets
-
-**What I Built:**
-- 🎨 [Adding CSS](web-foundations/CSS%20Projects/Adding%20CSS/) — Exercises demonstrating inline, internal, and external CSS methods (`index.html`, `inline.html`, `internal.html`, `external.html`, `style.css`)
-- 🎯 [CSS Selectors](web-foundations/CSS%20Projects/CSS%20Selectors/5.3%20CSS%20Selectors/) — Practicing class, ID, and element selectors (`index.html`, `style.css`)
-- 🔠 [Color Vocab Project](web-foundations/CSS%20Projects/Color%20Vocab%20Project/5.4%20Color%20Vocab%20Project/) — Staged CSS exercise displaying color vocab grid with styled fonts and layouts (`index.html`, `style.css`)
-
----
-
-### 📅 Day 44 — Intermediate CSS
-
-**What I Learnt:**
-- CSS Colors (Hex codes, RGB, HSL, and color naming conventions)
-- Font Properties (Font family, size, weight, line height, and style)
-- Inspecting CSS (using browser developer tools to inspect and debug styles)
-- The CSS Box Model (Understanding margins, padding, borders, and content sizing)
-
-**What I Built:**
-- 🎨 [CSS Colors](web-foundations/CSS%20Projects/CSS%20Colors/) — Exercises on utilizing different color formats and transparency in CSS (`index.html`)
-- 🔠 [Font Properties](web-foundations/CSS%20Projects/Font%20Properties/) — Practice styling fonts, sizes, and formatting text layouts (`index.html`, `font-family.html`, `font-size.html`)
-- 📦 [CSS Box Model](web-foundations/CSS%20Projects/CSS%20Box%20Model/) — Layout exercise to understand padding, margins, borders, and box dimensions (`index.html`)
-- 🖼️ [CSS Poster Project](web-foundations/CSS%20Projects/CSS%20Poster%20Project/) — A web page displaying a poster with styled fonts, margins, and borders around a custom image (`index.html`, `style.css`)
-
----
-
-## 🟣 Section 5 — Intermediate+ Web Scraping (Days 45–47)
-
----
-
-### 📅 Day 45 — Intermediate+ Web Scraping with Beautiful Soup
-
-**What I Learnt:**
-- Web Scraping principles, ethics, and legality (`robots.txt`)
-- Parsing local HTML files using Beautiful Soup (`BeautifulSoup`)
-- Finding, selecting, and extracting specific elements, attributes, and text
-- Selecting elements using CSS Selectors (`select()`, `select_one()`)
-- Scraping live websites (Hacker News) to extract and analyze real-time data
-- Chaining data processing to find the most popular articles based on upvote count
-
-**What I Built:**
-- 📰 [YC Top News Scraper](web-intermediate/yc_top_news_scrapper/) — Scrapes the Y Combinator Hacker News homepage to find and print the link and title of the article with the highest upvotes (`main.py`)
-- 🎬 [100 Movies that You Must Watch](web-intermediate/100_movies_to_watch/) — Scrapes a curated list of top 100 movies from an archived Empire magazine article and generates a `movies.txt` file listing them in ascending order (`main.py`, `movies.txt`)
-
----
-
-### 📅 Day 46 — Create a YouTube Music Playlist using the Musical Time Machine
-
-**What I Learnt:**
-- Scraping historical web pages (Billboard Hot 100 for a specific date) using Beautiful Soup
-- Authenticating with YouTube Music using the `ytmusicapi` library
-- Re-using browser request headers (cookies and session tokens) for programmatic authentication via `browser.json`
-- Searching for songs on YouTube Music programmatically and handling search failures/exceptions
-- Programmatically creating playlists and adding items (videos/tracks) to playlists on YouTube Music
-
-**What I Built:**
-- 🎵 [Music Time Machine](Music%20Time%20Machine/) — A command-line script that prompts the user for a past date, scrapes the Billboard Hot 100 chart for that date, searches for the songs on YouTube Music, and creates a private playlist in the user's library with all the found songs (`main.py`, `browser.json.example`, `README.md`)
-
----
-
-### 📅 Day 47 — Automated Amazon Price Tracker
-
-**What I Learnt:**
-- Scrapes live e-commerce websites (Amazon) to monitor product prices using Beautiful Soup and Regular Expressions (`re.sub()`)
-- Hiding sensitive HTTP request headers (such as browser details and cookies) using environment variables loaded via `.env` files and `python-dotenv`
-- Structuring secure credentials using `.env` files and `python-dotenv` for SMTP email alert notifications
-- Automating email notifications using Python's `smtplib` and `email.message.EmailMessage` to alert the user when the scraped product price falls below a preset target value
-
-**What I Built:**
-- 🏷️ [Automated Amazon Price Tracker](Amazon%20Price%20Tracker/) — A background scraper script that monitors the price of a specific Amazon item, parses its fractional and whole price components, and automatically triggers an email alert if the price drops below the specified budget (`main.py`, `.env.example`, `pyproject.toml`)
-
----
-
-## 🔴 Section 6 — Selenium & Browser Automation (Days 48–53)
-
----
-
-### 📅 Day 48 — Intermediate+ Create an Automated Browser & Game Bot with Selenium
-
-**What I Learnt:**
-- Installing and setting up Selenium Webdriver with ChromeDriver
-- Locating elements using `By.ID`, `By.CSS_SELECTOR`, `By.NAME`, `By.LINK_TEXT`
-- Extracting text and attributes from web elements (`.text`, `.get_attribute()`)
-- Interacting with elements: `.click()`, `.send_keys()`, `Keys.ENTER`
-- Using `WebDriverWait` and `expected_conditions` for reliable, timed element waits
-- Building a game bot loop with `time.time()` for timed automation
-- Configuring ChromeOptions with `add_experimental_option()` and `add_argument()`
-
-**What I Built:**
-- 🐍 [Python Events Scraper](SeleniumFundamentals/python-events-scrapper.py) — Scrapes upcoming Python.org events by selecting elements with CSS selectors and extracting `datetime` attributes and event names into a dictionary (`python-events-scrapper.py`)
-- 📋 [Form Auto-Fill Bot](SeleniumFundamentals/wikipedia-scrapper/interaction.py) — Automatically fills and submits a newsletter signup form using Selenium `find_element` with `By.NAME` and `send_keys` (`interaction.py`)
-- 🍪 [Automated Cookie Clicker Bot](automated-cookie-clicker/) — A game bot that plays the Cookie Clicker game for 5 minutes autonomously: clicks the cookie as fast as possible, then purchases the latest available upgrades and products on every cycle (`main.py`)
-
----
-
-### 📅 Day 49 — Intermediate+ Automating your Exercise Routine at the Gym
-
-**What I Learnt:**
-- Setting up a persistent Chrome profile with `--user-data-dir` to retain login sessions across runs
-- Using `WebDriverWait` with `expected_conditions` for robust element waiting (clickable, presence)
-- Programmatic login using `send_keys()` and `Keys.ENTER` in a loop over multiple fields
-- Filtering elements dynamically by their text content (e.g., detecting "Booked", "Waitlisted", "Join Waitlist")
-- Using `driver.execute_script("arguments[0].click();", element)` to click elements that standard `.click()` can't reach
-- Scraping and verifying bookings on a separate "My Bookings" page using `XPATH` selectors with `strong` text matching
-- Writing a reusable `retry()` helper function to handle transient failures gracefully with configurable retries
-- Providing a structured QA summary with counters (booked, waitlisted, already booked) and a verification pass
-
-**What I Built:**
-- 🏋️ [Gym Booking Automation](Gym-Booking-Automation/) — A fully automated Selenium bot that logs into a gym booking website, filters the schedule for Tuesday & Thursday 6pm spin classes, books or joins the waitlist for each, then navigates to the "My Bookings" page to verify and print a detailed booking summary report (`main.py`)
-
----
-
-### 📅 Day 50 — Intermediate+ Auto Tinder Swiping Bot
-
-**What I Learnt:**
-- Using Selenium to interact with popup windows (`window_handles`, `switch_to.window()`)
-- Automating a Facebook OAuth login popup flow with `send_keys()` and `Keys.ENTER`
-- Handling `ElementClickInterceptedException` to catch "It's a Match" popups and dismiss them
-- Chaining `.find_element()` calls with `XPATH` selectors for deeply nested UI elements
-- Building a robust loop that swipes right 100 times with built-in error recovery
-
-**What I Built:**
-- 💘 [Tinder Auto-Swipe Bot](Tinder-swipe-bot/) — A Selenium bot that logs into Tinder via Facebook OAuth, dismisses location/notification/cookie popups, then auto-likes 100 profiles while gracefully handling match popups and interception errors (`main.py`)
-
----
-
-### 📅 Day 51 — Intermediate+ Internet Speed X Complaint Bot
-
-**What I Learnt:**
-- Using the `speedtest` Python library to programmatically measure real download and upload speeds in Mbps
-- Combining two tools (speedtest + Selenium) in a single OOP class to measure and report speeds
-- Automating an X (Twitter) login flow with `send_keys()` and `Keys.ENTER`
-- Composing and posting a tweet programmatically using Selenium element interactions
-- Structuring logic into a class with `__init__`, `get_internet_speed()`, and `tweet_at_provider()` methods
-
-**What I Built:**
-- 📶 [X Internet Speed Complaint Bot](X-Complaint-Bot/) — A bot that measures the current internet speed using the `speedtest` library, then automatically logs into X (Twitter) and tweets at the ISP comparing actual vs. promised speeds (`main.py`)
-
----
-
-### 📅 Day 52 — Intermediate+ Instagram Follower Bot
-
-**What I Learnt:**
-- Logging into a web application programmatically using `By.NAME` selectors and `send_keys()`
-- Handling optional/conditional UI elements (cookie banners, "Save Info", notifications) safely with `find_elements()` and checking for presence before clicking
-- Scrolling inside a modal element using `execute_script()` to load more content dynamically
-- Collecting all follow buttons from a scrollable list and clicking each with exception handling
-- Dismissing interception dialogs (Cancel buttons) when an unexpected modal appears during iteration
-
-**What I Built:**
-- 🤳 [Instagram Follower Bot](Social_Media-Follower-Bot/) — A Selenium bot that logs into a Share-a-Naan (Instagram practice site), navigates to the followers list of a target account, scrolls to load all followers, and follows each one while handling pop-up dialogs (`main.py`)
-
----
-
-### 📅 Day 53 — Intermediate+ Web Scraping Capstone — Data Entry Job Automation
-
-**What I Learnt:**
-- Combining BeautifulSoup scraping with Selenium form automation in a single pipeline
-- Extracting structured data (address, price, link) from a Zillow-style property listing page
-- Cleaning scraped text with `.strip()` to remove unwanted characters from prices
-- Iterating through all listings and filling a repeating Google Form one entry at a time using Selenium
-- Navigating back to the form for the next submission using a "Submit another response" link
-
-**What I Built:**
-- 🏠 [Property Listing Bot](Property-Listing-Bot/) — A hybrid scraping + automation script that scrapes rental listings (address, price, link) from a Zillow clone using Beautiful Soup, then uses Selenium to automatically fill and submit a Google Form for each listing (`main.py`)
-
----
-
-## 🟢 Section 7 — Flask Web Development (Day 54)
-
----
-
-### 📅 Day 54 — Intermediate+ Introduction to Web Development with Python
-
-**What I Learnt:**
-- Understanding what Backend Web Development is and how Python powers web servers
-- Creating a first web server with Flask using `Flask(__name__)`
-- Understanding the Command Line on Windows and Mac for running Flask apps
-- The `__name__` and `__main__` special attributes built into Python
-- Python Functions as First Class Objects — passing functions as arguments
-- Python Decorator Functions and the `@` syntax
-- Writing a custom Python decorator from scratch
-- How Flask's `@app.route()` is itself a decorator that maps a URL path to a function
-
-**What I Built:**
-- 🌐 [Flask Hello World Server](FlaskFundamentals/) — A minimal Flask web server with a single route that returns an HTML paragraph on the root path, using the `@app.route` decorator and `__main__` entry point (`hello.py`)
-
----
-
-### 📅 Day 55 — Intermediate+ HTML & URL Parsing in Flask and the Higher Lower Game
-
-**What I Learnt:**
-- Working with Flask URL paths and the Flask Debugger
-- Rendering raw HTML elements directly from Flask route functions
-- Using Python decorators to style HTML tags with `*args` and `**kwargs`
-- Advanced decorators — passing arguments through wrapper functions
-- Dynamic URL variables with `<int:variable>` in `@app.route()`
-- Serving static files (images, GIFs) from the `static/` folder in Flask
-
-**What I Built:**
-- 🔢 [Advanced Decorator Exercise](FlaskFundamentals/decorator.py) — A decorator that checks `is_logged_in` before executing a function, demonstrating authentication-style wrapper patterns (`decorator.py`)
-- 🎮 [Higher-Lower URL Game](higher-lower-flask-game/) — A Flask web game where the player guesses a random number (0–9) by navigating to URL paths; each guess returns a coloured HTML response and a matching GIF (`server.py`, `static/*.gif`)
-
----
-
-### 📅 Day 56 — Intermediate+ Rendering HTML/Static Files and Using Website Templates
-
-**What I Learnt:**
-- Rendering full HTML files with `render_template()` from Flask's `templates/` folder
-- Serving static files (CSS, JS, images, fonts) from Flask's `static/` folder
-- Using pre-built HTML/CSS website templates and wiring them up to a Flask backend
-- Structuring a Flask project with `templates/` and `static/` directories
-
-**What I Built:**
-- 🏠 [Personal Birthday Invitation Site](my-personal-site/) — A Flask-served birthday invitation webpage with custom CSS styling and embedded images rendered via `render_template()` (`server.py`, `templates/birthday.html`, `static/style.css`)
-- 💼 [Name Card Website](Name-Card-Website/) — A professional name card portfolio site built from an HTML template, served through Flask with full static assets (CSS, JS, SCSS, FontAwesome, images) (`server.py`, `templates/index.html`, `static/`)
-
----
-
-### 📅 Day 57 — Intermediate+ Templating with Jinja in Flask Applications
-
-**What I Learnt:**
-- Using Jinja2 to produce dynamic HTML pages — passing variables from Python to templates with `{{ variable }}`
-- Jinja2 control flow: `{% for %}` loops and `{% if %}` conditionals inside templates
-- Multiline Jinja statements and template inheritance concepts
-- URL building in Flask with `url_for()`
-- Fetching live API data (genderize.io, agify.io) and injecting it into templates
-- Fetching blog post data from an external JSON API and rendering posts dynamically
-
-**What I Built:**
-- 🧪 [Jinja Fundamentals App](jinja-fundamentals/) — A multi-route Flask app demonstrating Jinja2 variables, a gender/age guessing page using the genderize.io and agify.io APIs, and a dynamic blog listing page (`main.py`, `templates/`)
-- 📝 [Blog Capstone Part 1](blog-page/) — A Flask blog app that fetches posts from an external npoint.io JSON API, lists them on the home page, and renders individual post detail pages using Jinja2 templates (`main.py`, `templates/index.html`, `templates/post.html`, `static/css/styles.css`)
+- **Python Core** — Variables, control flow, functions, OOP, decorators, scope, error handling
+- **GUI Development** — Tkinter widgets, Canvas, event-driven programming, Turtle graphics
+- **Data Handling** — Pandas, CSV, JSON, file I/O, list/dictionary comprehensions
+- **API Integration** — REST APIs, authentication, environment variables, smtplib, multiple third-party services
+- **Web Scraping** — BeautifulSoup 4, requests, CSS selectors, regex, ethics & `robots.txt`
+- **Browser Automation** — Selenium WebDriver, WebDriverWait, expected conditions, multi-window handling
+- **Flask Web Development** — Routing, `render_template`, Jinja2 templating, static files, dynamic URLs
+- **Security** — `.env` files, `python-dotenv`, environment-based credential management
 
 ---
 
-## 🛠️ Tools & Technologies Used
+## 🛠️ Technologies Used
 
 | Category | Tools |
 |----------|-------|
@@ -886,203 +35,398 @@ This repository documents my journey through Dr. Angela Yu's **"100 Days of Code
 | **IDE** | PyCharm, VS Code |
 | **GUI** | Tkinter, Turtle Graphics |
 | **Data** | Pandas, CSV, JSON |
-| **APIs** | OpenWeatherMap, Twilio, Pixela, Nutritionix, Sheety, Tequila/Amadeus, Open Trivia DB, ISS API, Kanye REST, YouTube Music API (ytmusicapi) |
+| **APIs** | OpenWeatherMap, Twilio, Pixela, Nutritionix, Sheety, Tequila/Amadeus, Open Trivia DB, ISS API, Kanye REST, YouTube Music (ytmusicapi) |
 | **Email** | smtplib, SMTP |
 | **Web / Scraping** | HTML, CSS, BeautifulSoup 4, requests |
-| **Browser Automation** | Selenium Webdriver, ChromeDriver, speedtest |
+| **Browser Automation** | Selenium WebDriver, ChromeDriver, speedtest |
 | **Web Framework** | Flask, Jinja2 |
 | **Version Control** | Git & GitHub |
+
+---
+
+## ⭐ Featured Projects
+
+| Project | Description | Tech |
+|---------|-------------|------|
+| [Music Time Machine](Music%20Time%20Machine/) | Scrapes Billboard Hot 100 for a given date and builds a YouTube Music playlist | ytmusicapi, BeautifulSoup |
+| [Flight Deal Finder](flight-deals/) | Monitors flight prices and sends SMS/email alerts when prices drop below a target | Tequila API, Twilio, Sheety |
+| [Gym Booking Automation](Gym-Booking-Automation/) | Selenium bot that auto-books gym classes, handles waitlists, and verifies bookings | Selenium, WebDriverWait |
+| [Amazon Price Tracker](Amazon%20Price%20Tracker/) | Monitors Amazon product prices and emails an alert when the price drops | BeautifulSoup, smtplib |
+| [X Internet Speed Complaint Bot](X-Complaint-Bot/) | Measures real internet speed and auto-tweets at the ISP if speeds are below promised | speedtest, Selenium |
+| [Property Listing Bot](Property-Listing-Bot/) | Scrapes a Zillow-style listing page and auto-fills a Google Form for each result | BeautifulSoup, Selenium |
+| [Blog Capstone](blog-page/) | Flask app with dynamic Jinja2 templates pulling posts from an external JSON API | Flask, Jinja2 |
+| [Blackjack Game](Blackjack%20Game/) | Complete Blackjack card game with ace handling, OOP structure, and ASCII art | Python, OOP |
 
 ---
 
 ## 📂 Repository Structure
 
 ```
-100_Days_Of_Python/
-├── brandNameGenerator.py          # Day 1
-├── TipCalculator.py               # Day 2
-├── TreasureIslandGame.py          # Day 3
-├── loveCalculator.py              # Day 3
-├── rockPaperScissor.py            # Day 4
-├── passwordGenerator.py           # Day 5
-├── Hangman game/                  # Day 7
-├── Caeser Cipher/                 # Day 8
-├── Secret Auction/                # Day 9
-├── Simple Calculator/             # Day 10
-├── Blackjack Game/                # Day 11
-├── Number Gussing Game/           # Day 12
-├── Higher Lower game/             # Day 14
-├── CoffeeMachine.py               # Day 15
-├── Coffee Machine (OOPs)/         # Day 16
-├── Quiz Game(OOPs)/               # Day 17
-├── RandomWalk/                    # Day 18
-├── spirograph.py                  # Day 18
-├── spotpainting/                  # Day 18
-├── TurtleRace/                    # Day 19
-├── SnakeGame/                     # Day 20
-├── SnakeGame V0.2/                # Day 21
-├── Pong/                          # Day 22
-├── turtle-crossing/               # Day 23
-├── MailMerge/                     # Day 24
-├── NYC_Squirrel_Census_2018/      # Day 25
-├── us_states_game/                # Day 25
-├── NATO-alphabet/                 # Day 26
-├── intro_to_tkinter/              # Day 27
-├── miles_to_km_converter/         # Day 27
-├── pomodoro-app/                  # Day 28
-├── password_manager/              # Day 29–30
-├── flash-card-project/            # Day 31
-├── monday_quotes/                 # Day 32
-├── birthday-wisher/               # Day 32
-├── ISS_overhead_notifier/         # Day 33
-├── kanye_quotes/                  # Day 33
-├── quizzler-app/                  # Day 34
-├── rain_alert/                    # Day 35
-├── stock-news-notifier/           # Day 36
-├── habit-tracker/                 # Day 37
-├── exercise_tracker/              # Day 38
-├── flight-deals/                  # Day 39–40
-├── web-foundations/               # Day 41–44
-│   ├── HTML Projects/              # Days 41–42
-│   │   ├── movie_ranking/
-│   │   ├── recipe_using_lists/
-│   │   ├── Nested list/
-│   │   ├── Image Element/
-│   │   └── Anchor Tags/
-│   └── CSS Projects/               # Days 43–44
-│       ├── Adding CSS/
-│       ├── CSS Selectors/
-│       ├── Color Vocab Project/
-│       ├── CSS Colors/
-│       ├── Font Properties/
-│       ├── CSS Box Model/
-│       └── CSS Poster Project/
-├── web-intermediate/              # Day 45
-│   ├── yc_top_news_scrapper/       # Day 45
-│   └── 100_movies_to_watch/        # Day 45
-├── Music Time Machine/            # Day 46
-├── Amazon Price Tracker/          # Day 47
-├── SeleniumFundamentals/          # Day 48
-│   ├── python-events-scrapper.py
-│   └── wikipedia-scrapper/
-│       └── interaction.py
-├── automated-cookie-clicker/      # Day 48
-│   └── main.py
-├── Gym-Booking-Automation/        # Day 49
-│   └── main.py
-├── Tinder-swipe-bot/              # Day 50
-│   └── main.py
-├── X-Complaint-Bot/               # Day 51
-│   └── main.py
-├── Social_Media-Follower-Bot/     # Day 52
-│   └── main.py
-├── Property-Listing-Bot/          # Day 53
-│   └── main.py
-├── FlaskFundamentals/             # Day 54–55
-│   ├── hello.py
-│   └── decorator.py
-├── higher-lower-flask-game/       # Day 55
-│   ├── server.py
-│   └── static/
-├── my-personal-site/              # Day 56
-│   ├── server.py
-│   ├── templates/
-│   └── static/
-├── Name-Card-Website/             # Day 56
-│   ├── server.py
-│   ├── templates/
-│   └── static/
-├── jinja-fundamentals/            # Day 57
-│   ├── main.py
-│   └── templates/
-└── blog-page/                     # Day 57
-    ├── main.py
-    ├── templates/
-    └── static/
+Python-Learning-Journey/
+│
+├── Core Python/                       # Variables → OOP → Decorators
+│   ├── brandNameGenerator.py
+│   ├── TipCalculator.py
+│   ├── TreasureIslandGame.py
+│   ├── rockPaperScissor.py
+│   ├── passwordGenerator.py
+│   ├── Hangman game/
+│   ├── Caeser Cipher/
+│   ├── Secret Auction/
+│   ├── Simple Calculator/
+│   ├── Blackjack Game/
+│   ├── Number Gussing Game/
+│   └── Higher Lower game/
+│
+├── GUI & Graphics/                    # Tkinter + Turtle
+│   ├── CoffeeMachine.py
+│   ├── Coffee Machine (OOPs)/
+│   ├── Quiz Game(OOPs)/
+│   ├── RandomWalk/
+│   ├── spirograph.py
+│   ├── spotpainting/
+│   ├── TurtleRace/
+│   ├── SnakeGame/
+│   ├── SnakeGame V0.2/
+│   ├── Pong/
+│   ├── turtle-crossing/
+│   ├── intro_to_tkinter/
+│   ├── miles_to_km_converter/
+│   ├── pomodoro-app/
+│   ├── password_manager/
+│   └── flash-card-project/
+│
+├── APIs & Automation/                 # REST, Email, Notifications
+│   ├── MailMerge/
+│   ├── NYC_Squirrel_Census_2018/
+│   ├── us_states_game/
+│   ├── NATO-alphabet/
+│   ├── monday_quotes/
+│   ├── birthday-wisher/
+│   ├── ISS_overhead_notifier/
+│   ├── kanye_quotes/
+│   ├── quizzler-app/
+│   ├── rain_alert/
+│   ├── stock-news-notifier/
+│   ├── habit-tracker/
+│   ├── exercise_tracker/
+│   └── flight-deals/
+│
+├── Web Foundations/                   # HTML & CSS
+│   └── web-foundations/
+│
+├── Web Scraping/                      # BeautifulSoup, requests
+│   ├── web-intermediate/
+│   ├── Music Time Machine/
+│   └── Amazon Price Tracker/
+│
+├── Browser Automation/                # Selenium bots
+│   ├── SeleniumFundamentals/
+│   ├── automated-cookie-clicker/
+│   ├── Gym-Booking-Automation/
+│   ├── Tinder-swipe-bot/
+│   ├── X-Complaint-Bot/
+│   ├── Social_Media-Follower-Bot/
+│   └── Property-Listing-Bot/
+│
+└── Flask Web Apps/                    # Flask, Jinja2, HTML/CSS
+    ├── FlaskFundamentals/
+    ├── higher-lower-flask-game/
+    ├── my-personal-site/
+    ├── Name-Card-Website/
+    ├── jinja-fundamentals/
+    └── blog-page/
 ```
 
 ---
 
-## 📈 Progress Tracker
+## 📁 Projects by Topic
 
-| Day | Status | Topic |
-|-----|--------|-------|
-| 1 | ✅ | Variables |
-| 2 | ✅ | Data Types & Strings |
-| 3 | ✅ | Control Flow |
-| 4 | ✅ | Randomisation & Lists |
-| 5 | ✅ | Loops |
-| 6 | ✅ | Functions & Karel |
-| 7 | ✅ | Hangman |
-| 8 | ✅ | Caesar Cipher |
-| 9 | ✅ | Dictionaries & Nesting |
-| 10 | ✅ | Calculator |
-| 11 | ✅ | Blackjack Capstone |
-| 12 | ✅ | Scope & Number Guessing |
-| 13 | ✅ | Debugging |
-| 14 | ✅ | Higher Lower Game |
-| 15 | ✅ | Coffee Machine |
-| 16 | ✅ | OOP |
-| 17 | ✅ | Quiz Project |
-| 18 | ✅ | Turtle & GUI |
-| 19 | ✅ | Instances & State |
-| 20 | ✅ | Snake Game Part 1 |
-| 21 | ✅ | Snake Game Part 2 |
-| 22 | ✅ | Pong |
-| 23 | ✅ | Turtle Crossing |
-| 24 | ✅ | Files & Paths |
-| 25 | ✅ | CSV & Pandas |
-| 26 | ✅ | List Comprehensions |
-| 27 | ✅ | Tkinter |
-| 28 | ✅ | Pomodoro App |
-| 29 | ✅ | Password Manager |
-| 30 | ✅ | Errors & JSON |
-| 31 | ✅ | Flash Card Capstone |
-| 32 | ✅ | Email & Dates |
-| 33 | ✅ | APIs |
-| 34 | ✅ | GUI Quiz App |
-| 35 | ✅ | API Keys & Auth |
-| 36 | ✅ | Stock News Alert |
-| 37 | ✅ | Habit Tracker |
-| 38 | ✅ | Workout Tracking |
-| 39 | ✅ | Flight Deals Part 1 |
-| 40 | ✅ | Flight Deals Part 2 |
-| 41 | ✅ | HTML Foundations |
-| 42 | ✅ | Intermediate HTML |
-| 43 | ✅ | Introduction to CSS |
-| 44 | ✅ | Intermediate CSS |
-| 45 | ✅ | Web Scraping with Beautiful Soup |
-| 46 | ✅ | Create a YouTube Music Playlist |
-| 47 | ✅ | Automated Amazon Price Tracker |
-| 48 | ✅ | Selenium Browser Automation & Game Bot |
-| 49 | ✅ | Gym Booking Automation |
-| 50 | ✅ | Auto Tinder Swiping Bot |
-| 51 | ✅ | Internet Speed X Complaint Bot |
-| 52 | ✅ | Instagram Follower Bot |
-| 53 | ✅ | Web Scraping Capstone — Data Entry Automation |
-| 54 | ✅ | Introduction to Flask Web Development |
-| 55 | ✅ | Flask URL Routing & Higher-Lower Game |
-| 56 | ✅ | Flask HTML Templates & Static Files |
-| 57 | ✅ | Jinja2 Templating & Blog Capstone Part 1 |
-| 58–100 | ⬜ | Coming soon... |
+<details>
+<summary><strong>🟢 Core Python — Variables, Control Flow, Functions, Loops, OOP</strong></summary>
+
+<br>
+
+### Working with Variables
+**What I Learnt:** `print()`, string concatenation, variables, `input()`, debugging basics
+
+**What I Built:**
+- 🎸 [Band Name Generator](brandNameGenerator.py) — Generates a fun band name by combining user's city and pet name
+
+---
+
+### Data Types & String Manipulation
+**What I Learnt:** Strings, integers, floats, booleans, type casting, f-strings, `round()`
+
+**What I Built:**
+- 💰 [Tip Calculator](TipCalculator.py) — Splits a restaurant bill among friends with a custom tip percentage
+
+---
+
+### Control Flow & Logical Operators
+**What I Learnt:** `if`/`elif`/`else`, comparison operators, logical operators, nested conditions
+
+**What I Built:**
+- 🏝️ [Treasure Island Game](TreasureIslandGame.py) — Text-based choose-your-own-adventure game with ASCII art
+- 💕 [Love Calculator](loveCalculator.py) — Calculates a "love score" based on letter matching
+
+---
+
+### Randomisation & Python Lists
+**What I Learnt:** `random` module, lists, nested lists, index errors
+
+**What I Built:**
+- ✊✋✌️ [Rock Paper Scissors](rockPaperScissor.py) — Classic game against the computer with ASCII art visuals
+
+---
+
+### Python Loops
+**What I Learnt:** `for` loops, `range()`, `while` loops, accumulation patterns
+
+**What I Built:**
+- 🔐 [Password Generator](passwordGenerator.py) — Generates strong random passwords with customizable character counts
+
+---
+
+### Functions & Modules
+**What I Learnt:** Defining and calling functions, parameters vs arguments, multiple return values, `import`, ASCII art
+
+**What I Built:**
+- 🪓 [Hangman Game](Hangman%20game/) — Full Hangman game with word list, ASCII art stages, and lives tracking
+- 🔒 [Caesar Cipher](Caeser%20Cipher/) — Encrypt and decrypt messages using the Caesar Cipher shift algorithm
+- 🔨 [Secret Auction](Secret%20Auction/) — A blind auction program where the highest bidder wins
+- 🧮 [Simple Calculator](Simple%20Calculator/) — Fully functional calculator with chaining operations
+
+---
+
+### Scope, OOP & Capstone Projects
+**What I Learnt:** Local vs. global scope, `global` keyword, OOP (`__init__`, `self`, inheritance), recursion, game state
+
+**What I Built:**
+- 🃏 [Blackjack Game](Blackjack%20Game/) — Complete Blackjack card game with proper game rules and ace handling
+- 🔢 [Number Guessing Game](Number%20Gussing%20Game/) — Guess the number with Easy/Hard difficulty modes
+- 📊 [Higher Lower Game](Higher%20Lower%20game/) — Compare follower counts and guess who has more
+
+</details>
+
+---
+
+<details>
+<summary><strong>🟡 GUI Development — Tkinter & Turtle Graphics</strong></summary>
+
+<br>
+
+### Turtle Graphics & Animations
+**What I Learnt:** `turtle` module, RGB colors, `colormode(255)`, screen events, `onkey()`, animation with `tracer()`/`update()`
+
+**What I Built:**
+- 🐢 [Random Walk](RandomWalk/) — Draws random colorful paths with turtle graphics
+- 🌀 [Spirograph](spirograph.py) — Draws beautiful spirograph patterns using turtle graphics
+- 🎨 [Spot Painting](spotpainting/) — Recreates a Damien Hirst-style spot painting
+- 🐢 [Turtle Race](TurtleRace/) — Colorful turtle racing game with event listeners and random movement
+
+---
+
+### Classic Games with OOP
+**What I Learnt:** Multi-class architecture, collision detection, scoring, inheritance, list slicing, game loops
+
+**What I Built:**
+- 🐍 [Snake Game V1](SnakeGame/) — Classic Snake with smooth movement, food spawning, and collision detection
+- 🐍 [Snake Game V2](SnakeGame%20V0.2/) — Complete Snake with high score tracking, tail collisions, and polished gameplay
+- 🏓 [Pong Game](Pong/) — Classic 2-player Pong with ball physics and a scoreboard
+- 🚗 [Turtle Crossing Game](turtle-crossing/) — Frogger-style game with increasing difficulty levels
+
+---
+
+### Tkinter Desktop GUIs
+**What I Learnt:** Tkinter widgets (Entry, Button, Label, Canvas), `grid()`/`pack()`, `after()`, `messagebox`, `pyperclip`, event-driven programming
+
+**What I Built:**
+- ☕ [Coffee Machine (Procedural)](CoffeeMachine.py) — Virtual coffee machine managing resources and coin payments
+- ☕ [Coffee Machine (OOP)](Coffee%20Machine%20(OOPs)/) — Refactored Coffee Machine using `CoffeeMaker`, `MoneyMachine`, `Menu` classes
+- ❓ [Quiz Game (OOP)](Quiz%20Game(OOPs)/) — True/False quiz game with OOP architecture
+- 🖥️ [Intro to Tkinter](intro_to_tkinter/) — Tkinter widget experiments and demos
+- 📏 [Miles to KM Converter](miles_to_km_converter/) — GUI unit converter using Tkinter
+- 🍅 [Pomodoro App](pomodoro-app/) — Full Pomodoro timer with work/break cycles and countdown display
+- 🔑 [Password Manager](password_manager/) — GUI password manager with strong password generation, JSON storage, and search
+- 🃏 [Flash Card App](flash-card-project/) — French-to-English flashcard app with progress tracking and Pandas
+
+</details>
+
+---
+
+<details>
+<summary><strong>🟠 APIs & Automation — REST APIs, Email, Notifications</strong></summary>
+
+<br>
+
+### Files, CSV & Data
+**What I Learnt:** `open()`, file modes, `with` statement, Pandas `DataFrame`, `read_csv()`, list/dictionary comprehensions
+
+**What I Built:**
+- ✉️ [Mail Merge](MailMerge/) — Generates personalized letters from a template and a name list
+- 🐿️ [NYC Squirrel Census Analysis](NYC_Squirrel_Census_2018/) — Counts squirrels by fur color using Pandas
+- 🗺️ [U.S. States Game](us_states_game/) — Interactive quiz on all 50 U.S. states using a Pandas-backed map
+- 🔤 [NATO Alphabet Converter](NATO-alphabet/) — Converts words to NATO phonetic alphabet using dictionary comprehension
+
+---
+
+### Email Automation & Dates
+**What I Learnt:** `smtplib`, SMTP configuration, `datetime` module, automating by date and weekday
+
+**What I Built:**
+- 📧 [Monday Motivation Quotes](monday_quotes/) — Sends a random motivational quote via email every Monday
+- 🎂 [Birthday Wisher](birthday-wisher/) — Automatically sends personalized birthday emails from a CSV
+
+---
+
+### REST APIs
+**What I Learnt:** API endpoints, parameters, JSON responses, API keys, `.env` files, `python-dotenv`, HTTP methods (GET, POST, PUT, DELETE)
+
+**What I Built:**
+- 🛰️ [ISS Overhead Notifier](ISS_overhead_notifier/) — Tracks the ISS position and sends an email when it's overhead at night
+- 🌅 [Kanye Quotes App](kanye_quotes/) — Tkinter GUI fetching random Kanye West quotes from an API
+- 🧠 [Quizzler App](quizzler-app/) — GUI quiz app pulling questions from the Open Trivia Database API
+- 🌧️ [Rain Alert](rain_alert/) — Checks weather forecasts via OpenWeatherMap and sends an SMS via Twilio if rain is expected
+- 📈 [Stock News Notifier](stock-news-notifier/) — Monitors stock price changes and sends SMS alerts with relevant news articles
+- 📊 [Habit Tracker](habit-tracker/) — Logs daily habits to a Pixela graph using POST/PUT/DELETE API calls
+- 🏋️ [Exercise Tracker](exercise_tracker/) — Logs natural language workout input to Google Sheets via Nutritionix and Sheety APIs
+- ✈️ [Flight Deal Finder](flight-deals/) — Searches cheapest flights via the Tequila API and sends SMS/email alerts when prices drop
+
+</details>
+
+---
+
+<details>
+<summary><strong>🔵 Web Foundations — HTML & CSS</strong></summary>
+
+<br>
+
+### HTML Foundations & Intermediate HTML
+**What I Learnt:** HTML document structure, heading/paragraph tags, lists, `<img>`, anchor tags, nested lists, multi-page sites
+
+**What I Built:**
+- 🎬 [Movie Ranking Page](web-foundations/HTML%20Projects/movie_ranking/) — HTML page ranking top movies with headings and lists
+- 🍳 [Recipe Page](web-foundations/HTML%20Projects/recipe_using_lists/) — Recipe page using nested HTML lists
+- 📋 [Nested List Page](web-foundations/HTML%20Projects/Nested%20list/) — Demonstrating complex nested list structures
+- 🖼️ [Image Element Page](web-foundations/HTML%20Projects/Image%20Element/) — Practicing image embedding in HTML
+- 🔗 [Anchor Tags Page](web-foundations/HTML%20Projects/Anchor%20Tags/) — Creating hyperlinks and navigation
+
+---
+
+### CSS Foundations & Intermediate CSS
+**What I Learnt:** Inline/internal/external CSS, selectors (tag, class, ID), specificity, colors (Hex, RGB, HSL), font properties, the Box Model, browser dev tools
+
+**What I Built:**
+- 🎨 [Adding CSS](web-foundations/CSS%20Projects/Adding%20CSS/) — Exercises for all three methods of applying CSS
+- 🎯 [CSS Selectors](web-foundations/CSS%20Projects/CSS%20Selectors/5.3%20CSS%20Selectors/) — Class, ID, and element selector practice
+- 🔠 [Color Vocab Project](web-foundations/CSS%20Projects/Color%20Vocab%20Project/5.4%20Color%20Vocab%20Project/) — Styled color vocabulary grid
+- 🎨 [CSS Colors](web-foundations/CSS%20Projects/CSS%20Colors/) — Color format exercises (Hex, RGB, HSL, transparency)
+- 🔠 [Font Properties](web-foundations/CSS%20Projects/Font%20Properties/) — Font styling and text layout practice
+- 📦 [CSS Box Model](web-foundations/CSS%20Projects/CSS%20Box%20Model/) — Padding, margins, borders, and box sizing
+- 🖼️ [CSS Poster Project](web-foundations/CSS%20Projects/CSS%20Poster%20Project/) — Styled poster webpage with custom fonts and borders
+
+</details>
+
+---
+
+<details>
+<summary><strong>🟣 Web Scraping — BeautifulSoup, requests, regex</strong></summary>
+
+<br>
+
+### Web Scraping with Beautiful Soup
+**What I Learnt:** Scraping ethics (`robots.txt`), `BeautifulSoup`, CSS selectors (`select()`, `select_one()`), live website scraping, chaining data processing
+
+**What I Built:**
+- 📰 [YC Top News Scraper](web-intermediate/yc_top_news_scrapper/) — Scrapes Hacker News to find the article with the highest upvotes
+- 🎬 [Top 100 Movies Scraper](web-intermediate/100_movies_to_watch/) — Scrapes Empire's top 100 movies list and generates a `movies.txt` file
+
+---
+
+### Scraping + APIs + Email Alerts
+**What I Learnt:** Authenticating with external services via browser headers, `re.sub()` for price parsing, email alerts via `smtplib`, `ytmusicapi` authentication flow
+
+**What I Built:**
+- 🎵 [Music Time Machine](Music%20Time%20Machine/) — Scrapes the Billboard Hot 100 for a chosen date and builds a YouTube Music playlist
+- 🏷️ [Amazon Price Tracker](Amazon%20Price%20Tracker/) — Monitors an Amazon product price and emails an alert when it drops below a target
+
+</details>
+
+---
+
+<details>
+<summary><strong>🔴 Browser Automation — Selenium WebDriver</strong></summary>
+
+<br>
+
+### Selenium Fundamentals
+**What I Learnt:** Selenium WebDriver setup, `By.ID`/`By.CSS_SELECTOR`/`By.NAME`/`By.XPATH`, `.click()`, `.send_keys()`, `WebDriverWait`, `expected_conditions`, `ChromeOptions`
+
+**What I Built:**
+- 🐍 [Python Events Scraper](SeleniumFundamentals/python-events-scrapper.py) — Scrapes python.org events using CSS selectors and `datetime` attributes
+- 📋 [Form Auto-Fill Bot](SeleniumFundamentals/wikipedia-scrapper/interaction.py) — Automatically fills and submits a newsletter signup form
+- 🍪 [Cookie Clicker Bot](automated-cookie-clicker/) — Plays Cookie Clicker autonomously for 5 minutes, buying upgrades in a loop
+
+---
+
+### Real-World Automation Bots
+**What I Learnt:** Persistent Chrome profiles (`--user-data-dir`), multi-window handling (`window_handles`, `switch_to.window()`), `execute_script()` clicks, retry logic, `speedtest` library, `ElementClickInterceptedException`
+
+**What I Built:**
+- 🏋️ [Gym Booking Automation](Gym-Booking-Automation/) — Auto-books gym classes, handles waitlists, and verifies bookings with a QA summary
+- 💘 [Tinder Auto-Swipe Bot](Tinder-swipe-bot/) — Logs in via Facebook OAuth and auto-likes 100 profiles with error recovery
+- 📶 [X Internet Speed Complaint Bot](X-Complaint-Bot/) — Measures real internet speed via `speedtest` and auto-tweets at the ISP if speeds underperform
+- 🤳 [Instagram Follower Bot](Social_Media-Follower-Bot/) — Scrolls a target account's follower list and follows each user
+- 🏠 [Property Listing Bot](Property-Listing-Bot/) — Scrapes a Zillow-style page and auto-fills a Google Form for every listing
+
+</details>
+
+---
+
+<details>
+<summary><strong>🟢 Flask Web Development — Routing, Templates, Jinja2</strong></summary>
+
+<br>
+
+### Flask Fundamentals & Decorators
+**What I Learnt:** `Flask(__name__)`, `@app.route()`, `__name__`/`__main__`, first-class functions, Python decorators, `*args`/`**kwargs` in decorators, Flask Debugger
+
+**What I Built:**
+- 🌐 [Flask Hello World Server](FlaskFundamentals/hello.py) — Minimal Flask server with a single `@app.route` returning HTML
+- 🔢 [Advanced Decorator Exercise](FlaskFundamentals/decorator.py) — Authentication-style wrapper using `*args`/`**kwargs`
+- 🎮 [Higher-Lower URL Game](higher-lower-flask-game/) — Flask game where the player guesses a number by navigating URL paths, with GIF responses
+
+---
+
+### HTML Templates & Static Files
+**What I Learnt:** `render_template()`, Flask `templates/` and `static/` folder conventions, wiring pre-built HTML/CSS templates to a Flask backend
+
+**What I Built:**
+- 🏠 [Personal Birthday Invitation Site](my-personal-site/) — Flask-served invitation page with custom CSS and embedded images
+- 💼 [Name Card Website](Name-Card-Website/) — Professional name card portfolio from an HTML template, served via Flask with full static assets
+
+---
+
+### Jinja2 Templating & Capstone
+**What I Learnt:** Jinja2 `{{ variable }}`, `{% for %}` / `{% if %}` blocks, multiline statements, `url_for()`, injecting live API data into templates
+
+**What I Built:**
+- 🧪 [Jinja Fundamentals App](jinja-fundamentals/) — Multi-route Flask app with dynamic templates, genderize.io/agify.io API integration, and blog listing
+- 📝 [Blog Capstone](blog-page/) — Flask blog app fetching posts from a JSON API and rendering home + individual post pages with Jinja2
+
+</details>
 
 ---
 
 ## 💡 Key Takeaways
 
-- **Consistency over speed** — showing up every day matters more than finishing fast
 - **Projects > Theory** — building real things accelerates learning exponentially
 - **Debugging is a skill** — not a sign of failure, but part of the craft
 - **OOP changes everything** — structuring code with classes makes complex projects manageable
 - **APIs unlock superpowers** — connecting to external services opens up endless possibilities
+- **Automation is practical** — Selenium bots taught me to think about UI as a programmable interface
 
 ---
 
-## 🚀 What's Next
-
-- Continue from **Day 58** onwards
-- Upcoming topics: WTForms, Flask-SQLAlchemy, REST APIs with Flask, Data Science, and more
-
----
-
-> *This repository is a work in progress. Updated as I progress through the remaining days of the bootcamp.* ✌️
+> *A curated collection of Python projects from my learning journey — built to solve real problems and reinforce practical skills.* ✌️
