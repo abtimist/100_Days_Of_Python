@@ -8,6 +8,20 @@ This repository documents my Python learning journey through hands-on projects a
 
 ---
 
+## 🏆 Certificate of Completion
+
+<div align="center">
+
+[![Certificate](certificate/100daypythoncertificate.jpg)](https://ude.my/UC-5737dcde-57f5-496e-9520-2da458411055)
+
+*🎓 Issued by Udemy · **100 Days of Code: The Complete Python Pro Bootcamp** · Dr. Angela Yu · July 2026 · 57 hours*
+
+[![Verify Certificate](https://img.shields.io/badge/Verify%20Certificate-Udemy-purple?logo=udemy&logoColor=white)](https://ude.my/UC-5737dcde-57f5-496e-9520-2da458411055)
+
+</div>
+
+---
+
 ## 👤 About
 
 A curated collection of Python projects built progressively — starting from core language fundamentals and advancing through GUI development, API integration, web scraping, browser automation, and Flask web development. Each project was built to reinforce a specific concept through practical application.
